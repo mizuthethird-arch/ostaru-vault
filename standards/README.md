@@ -31,6 +31,8 @@ Only `APPROVED` standards are binding. `DRAFT` standards are proposals.
 
 | Area | Standard | Version | Status | Owner | Approved |
 |---|---|---|---|---|---|
+| architecture | [Modular monolith, ready to split](architecture/modular-monolith.md) | 1.0.0 | APPROVED | CTO | CEO, 2026-10-21 (Rule 3) |
+| code | [Focused changes, always tested](code/change-discipline-and-testing.md) | 1.0.0 | APPROVED | CTO, QA Lead | CEO, 2026-10-21 (Rule 4) |
 | ux-ui (project: Bar Praza) | [Bar Praza UX/UI design line](../projects/bar-praza/standards/ux-ui-design-line.md) | 1.0.0 | APPROVED | Head of Product | CEO, 2026-10-21 |
 
-Where no approved standard covers an output, agents say so and propose one rather than inventing a style silently. Company-wide code and architecture standards are not approved yet.
+Where no approved standard covers an output, agents say so and propose one rather than inventing a style silently. Language- and framework-specific code style standards follow once ADR-002 (stack) is approved.

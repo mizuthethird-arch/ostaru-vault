@@ -1,6 +1,6 @@
 # Bar Praza (multi-restaurant ordering SaaS)
 
-> A client project for **Bar Praza**, a Galician tapas bar, **built from day one as a multi-restaurant SaaS** that Ostaru can offer to any other restaurant (CEO, 2026-10-21). Bar Praza is the first restaurant (tenant). **Phase 0: Idea intake.** The [idea brief](01-idea/idea-brief.md) is a draft waiting for the CEO.
+> A client project for **Bar Praza**, a Galician tapas bar, **built from day one as a multi-restaurant SaaS** that Ostaru can offer to any other restaurant (CEO, 2026-10-21). Bar Praza is the first restaurant (tenant). **Release 1 = the restaurant dashboard; the public app comes last (CEO, 2026-10-21).** Definition is drafted: [MVP spec](03-definition/mvp-spec.md), [ADR-001](03-definition/adr/ADR-001-modular-monolith.md) (accepted), [ADR-002 stack](03-definition/adr/ADR-002-technology-stack.md) and [ADR-003 tenancy](03-definition/adr/ADR-003-multi-tenancy.md) (waiting for the CEO), [backlog](04-planning/backlog.md) and [Cycle 1](04-planning/cycles/cycle-01.md). The [idea brief](01-idea/idea-brief.md) is still a draft for the CEO.
 >
 > **Approved design line:** [Bar Praza — Full Design Vision](<../../designs/Bar Praza — Full Design Vision-selection.pdf>), recorded as [standards/ux-ui-design-line.md](standards/ux-ui-design-line.md) (AGENT-RULES section 9).
 >
@@ -37,3 +37,4 @@ Phase 2 also needs a budget (owned by Business Operations, a vacant role). Until
 
 ## Project standards
 - [UX/UI design line](standards/ux-ui-design-line.md): **APPROVED** (CEO, 2026-10-21). Every UI output for this project follows it.
+- Company standards that also apply: [modular monolith](../../standards/architecture/modular-monolith.md) and [focused changes, always tested](../../standards/code/change-discipline-and-testing.md), both APPROVED.

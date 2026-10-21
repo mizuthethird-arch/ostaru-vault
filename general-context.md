@@ -2,7 +2,7 @@
 title: General Context
 owner: CTO (publishes changes; see AGENT-RULES section 4)
 status: PUBLISHED
-version: 1.19.0
+version: 1.20.0
 effective: 2026-10-21
 contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager), and the CEO
 ---
@@ -74,8 +74,10 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | D-016 | Start the Bar Praza client project and build it as a multi-restaurant SaaS Ostaru can offer to other restaurants. The MVP covers the customer ordering app, admin panel, live console with staff mobile ordering, and online payments. | CEO | 2026-10-21 | Executive decision. Details in [projects/bar-praza/decision-log.md](projects/bar-praza/decision-log.md). |
 | D-017 | "Bar Praza — Full Design Vision" is the approved UX/UI design line for Bar Praza (the first approved standard). | CEO | 2026-10-21 | Executive decision; [standard](projects/bar-praza/standards/ux-ui-design-line.md). |
 | D-018 | VYRO PrivateCloud is paused. | CEO | 2026-10-21 | Executive decision. Its folder is kept as is. |
+| D-019 | Bar Praza build order: the restaurant dashboard first (Release 1), the public customer app and online payments last. | CEO | 2026-10-21 | Executive decision; [MVP spec](projects/bar-praza/03-definition/mvp-spec.md). |
+| D-020 | The CEO's Project Rules 3–5 apply to every project: Rule 3, a modular monolith that is easy to split into microservices; Rule 4, focused changes, no over-engineering, unit tests always; Rule 5, learning from code and decisions is saved in the vault. Rules 3 and 4 are recorded as approved standards; Rule 5 is carried out through AGENT-RULES section 8. | CEO | 2026-10-21 | Executive decision; [standards/README](standards/README.md). |
 
-**Current priorities (CEO, 2026-10-21):** 1. **Bar Praza** (multi-restaurant SaaS, Phase 0). VYRO PrivateCloud is **paused**.
+**Current priorities (CEO, 2026-10-21):** 1. **Bar Praza**, Release 1: the restaurant dashboard (public app last). VYRO PrivateCloud is **paused**.
 
 ## 7. Projects and authoritative records
 - Projects: none registered yet. See [projects/README](projects/README.md); new projects start from [the template](projects/_template/README.md).
@@ -102,6 +104,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 
 | Version | Date | Note |
 |---|---|---|
+| 1.20.0 | 2026-10-21 | D-019 (dashboard first) and D-020 (CEO Rules 3–5 as standards). |
 | 1.19.0 | 2026-10-21 | Product defined (multi-restaurant ordering SaaS; Bar Praza first); priorities set; D-016 to D-018. |
 | 1.18.0 | 2026-10-21 | D-015: standing read access for all agents; vault mirrored into the Claude Project knowledge. |
 | 1.17.0 | 2026-10-21 | Recorded D-012 (agent internal folders), D-013 (design standards) and D-014 (erroneous product name removed everywhere). Rules now v1.1.0. |

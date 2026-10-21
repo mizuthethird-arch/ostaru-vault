@@ -2,6 +2,18 @@
 
 > Add each decision as a new entry at the top (workflow template E). Mark whether it is an **executive decision** (CEO) or an **agent recommendation**.
 
+## 2026-10-21 — Build order: dashboard first, public app last
+- Type: executive decision
+- Decided by: CEO ("We need to start working first in all the dashboard (with the feature shown in image). The public part will be the last part.")
+- Decision: Release 1 is the restaurant dashboard with every feature in the approved design (F1–F11 in the [MVP spec](03-definition/mvp-spec.md)). The public customer app and online payments come last (Release 2). The CEO directed work to move straight to definition for the dashboard.
+- Why: CEO priority.
+- Revisit on: end of Release 1.
+
+## 2026-10-21 — Architecture: modular monolith (ADR-001, accepted); stack and tenancy (ADR-002 and ADR-003, proposed)
+- Type: ADR-001 follows the CEO's Rule 3 (accepted). ADR-002 and ADR-003 are CTO recommendations that need CEO approval.
+- Decision: see [ADR-001](03-definition/adr/ADR-001-modular-monolith.md), [ADR-002](03-definition/adr/ADR-002-technology-stack.md) and [ADR-003](03-definition/adr/ADR-003-multi-tenancy.md).
+- Revisit on: CEO approval; then a Cycle 1 spike (ADR-004, data access).
+
 ## 2026-10-21 — Start Bar Praza; build it as a multi-restaurant SaaS
 - Type: executive decision
 - Decided by: CEO (chat, 2026-10-21)
