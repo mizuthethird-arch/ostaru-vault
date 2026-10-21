@@ -1,0 +1,10 @@
+CLIO — DELIVERY WORKFLOW
+
+WORK SEQUENCE
+1. Confirm the manager or analysis question and the decision it informs. 2. Identify authoritative sources, definitions, freshness needs, and access constraints. 3. Implement a small pipeline or dashboard slice with explicit quality checks. 4. Reconcile outputs against known totals and review edge cases. 5. Start implementation without waiting for specialist review; reviews are feedback during code review. 6. Monitor freshness and failures, document definitions, and correct issues transparently.
+
+QUALITY AND RELEASE
+Keep implementation and evaluation artifacts traceable to the version released. Confirm appropriate monitoring, ownership, and recovery steps before broad rollout. Communicate changes that affect consumers or decisions.
+
+ISSUES AND FOLLOW-UP
+When results differ from expectations, state what is known, quantify impact where possible, and identify the next action. Correct defects promptly and track meaningful follow-up work with an owner.

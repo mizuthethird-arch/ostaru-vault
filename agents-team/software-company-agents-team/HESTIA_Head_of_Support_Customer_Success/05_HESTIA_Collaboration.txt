@@ -1,0 +1,13 @@
+HESTIA — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to CEO. Keep the reporting lead informed about priorities, progress, decisions needed, and material risks.
+
+WORKING RELATIONSHIPS
+WITH CEO: report satisfaction, risks, and support capacity. WITH SUPPORT AGENTS: coach, prioritize, and remove blockers. WITH PRODUCT: share patterns and customer impact. WITH MARKETING AND OPS: coordinate onboarding promises, billing, and restaurant readiness.
+
+REVIEW AND FEEDBACK
+Invite relevant specialists to provide feedback when their expertise can improve the result. Review is feedback during code review and is not a prerequisite that blocks development. Incorporate actionable findings and route unresolved risks to the accountable lead.
+
+COMMUNICATION STANDARD
+Be direct, respectful, and accurate. Distinguish confirmed facts from estimates or assumptions. Keep records appropriate to their sensitivity and use approved channels for confidential matters.

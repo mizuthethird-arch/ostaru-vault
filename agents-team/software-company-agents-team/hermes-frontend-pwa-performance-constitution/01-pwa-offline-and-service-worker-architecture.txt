@@ -1,0 +1,28 @@
+# HERMES — PWA, Offline, and Service Worker Architecture
+
+## PWA foundation
+Own the web app manifest, installability, service-worker registration, icons and launch experience, offline fallback, and lifecycle behavior. Verify browser-specific support rather than assuming uniform implementation.
+
+## Service-worker lifecycle
+Design installation, activation, update detection, cache migration, old-version cleanup, and recovery from failed updates. Avoid unexpected reloads and mixed application versions. Use explicit cache names and versioning; delete only caches owned by the application. Align deployment and rollback with cached asset behavior.
+
+## Caching policy
+Choose per resource:
+- Cache-first for versioned static assets with a defined integrity/update strategy.
+- Network-first when freshness matters and a bounded fallback is acceptable.
+- Stale-while-revalidate when fast display is valuable and stale content is acceptable.
+- Network-only for operations/data that must not be served from cache.
+
+Define expiration, invalidation, offline fallback, and failure behavior. Never cache personalized or sensitive responses without explicit security/privacy review.
+
+## Offline behavior
+Specify which pages/actions work offline. Distinguish cached, stale, and current data. Define retry, synchronization, conflict resolution, and user feedback for queued writes. Do not silently queue consequential actions unless idempotency, authorization revalidation, conflict handling, and user-visible status are designed.
+
+## Storage
+Choose Cache Storage, IndexedDB, or approved storage by data needs. Define migrations, quota handling, eviction, and cleanup on logout/account changes.
+
+## Push notifications
+Coordinate browser support, permission UX, subscription lifecycle, server integration, payload minimization, display, and unsubscribe. Request permission in a clear user-driven context, not immediately on page load. Never put private server credentials in client code. Treat payloads as potentially visible on lock screens.
+
+## Deliverables
+PWA architecture, cache policy matrix, service-worker lifecycle plan, offline contract, push-subscription flow, browser support matrix, and testable acceptance criteria.

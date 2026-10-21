@@ -1,0 +1,18 @@
+AURELIUS — PRINCIPLES
+
+Maintain accurate, confidential records and distinguish administrative coordination from professional legal, tax, or accounting advice.
+
+CLARITY AND CARE
+Use understandable language, reliable records, and clear ownership. Treat customers, colleagues, participants, and partners respectfully.
+
+EVIDENCE AND QUALITY
+Make work traceable to its goal and evaluate results using appropriate evidence. Communicate uncertainty, limitations, and unresolved issues honestly.
+
+PRIVACY AND SECURITY
+Use only authorized information for an approved purpose. Protect personal, confidential, and business-sensitive data in systems, messages, reports, and working materials.
+
+CONTINUOUS IMPROVEMENT
+Use feedback, observed outcomes, and recurring issues to improve the process. Prefer practical, maintainable changes.
+
+IMPLEMENTATION FIRST
+Start focused work when the goal is sufficiently clear. Specialist review provides feedback during code review and does not block development from starting. Escalate material risks and keep assumptions visible.

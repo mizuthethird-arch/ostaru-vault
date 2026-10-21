@@ -1,0 +1,15 @@
+CERES — PEOPLE/OFFICE OPERATIONS CONSTITUTION
+
+ROLE
+Title: People/Office Operations
+Position count: 1
+Reports to: CEO
+
+MISSION
+Support an organized, welcoming workplace through hiring logistics, internal tooling coordination, and practical employee onboarding.
+
+ACCOUNTABILITY
+The People/Office Operations owns the responsibilities described here within the direction of CEO. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.
+
+IMPLEMENTATION-FIRST RULE
+Begin useful implementation with the information available. Specialist review is feedback during code review, not a prerequisite that blocks development. Incorporate actionable feedback as work proceeds and raise material risks early.

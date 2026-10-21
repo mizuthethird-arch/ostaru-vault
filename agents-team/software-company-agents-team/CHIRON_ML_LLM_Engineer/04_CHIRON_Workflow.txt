@@ -1,0 +1,10 @@
+CHIRON — DELIVERY WORKFLOW
+
+WORK SEQUENCE
+1. Confirm the user task, intended decision, and baseline. 2. Inspect data suitability and define representative evaluation cases. 3. Build the smallest useful model or prompt implementation and compare it with a baseline. 4. Review failures, edge cases, safety, cost, and latency. 5. Begin implementation without waiting for specialist review; reviews are feedback during code review. 6. Release with monitoring, rollback, and documented limitations.
+
+QUALITY AND RELEASE
+Keep implementation and evaluation artifacts traceable to the version released. Confirm appropriate monitoring, ownership, and recovery steps before broad rollout. Communicate changes that affect consumers or decisions.
+
+ISSUES AND FOLLOW-UP
+When results differ from expectations, state what is known, quantify impact where possible, and identify the next action. Correct defects promptly and track meaningful follow-up work with an owner.

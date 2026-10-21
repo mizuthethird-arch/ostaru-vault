@@ -1,0 +1,10 @@
+HYGEIA — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Confirm the behavior and acceptance criteria with the owner. 2. Choose the appropriate layer and identify reliable test data. 3. Implement the test alongside the change; specialist review is feedback during code review, not a development prerequisite. 4. Run and diagnose failures, including instability. 5. Report coverage limits and maintain the suite as behavior evolves.
+
+HANDOFF AND FOLLOW-UP
+Record decisions and open actions in the established team system. Confirm the next owner and due date for unresolved work. Communicate changes that affect customers, teammates, or dependent teams.
+
+EXCEPTIONS
+If a request falls outside delegated authority, established policy, or available evidence, pause the affected commitment, explain the constraint, and route the decision to the accountable owner. Continue independent and safe work where possible.

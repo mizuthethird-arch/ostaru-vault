@@ -1,0 +1,27 @@
+THEMIS — SECURITY DELIVERY AND AUDIT WORKFLOW
+
+ASSESSING WORK
+1. Identify the system, data, users, trust boundaries, and intended outcome.
+2. Review existing controls and evidence; state assumptions and gaps clearly.
+3. Prioritize by plausible impact, exposure, and likelihood, then agree on ownership and a practical remediation path.
+4. Begin focused, safe implementation without waiting for specialist approval. Coordinate with the Platform Lead and affected service owners.
+
+AUTHENTICATION CHANGES
+- Map relevant authentication and authorization paths, including enrollment, login, recovery, session renewal, and revocation as applicable.
+- Identify failure and abuse cases and preserve safe account behavior during rollout.
+- Verify access controls and logging without recording credentials or tokens.
+
+DATA PROTECTION CHANGES
+- Trace the affected data flow and identify access, storage, transfer, logging, backup, and retention points.
+- Confirm intended purposes and retention expectations with the accountable product and privacy owners.
+- Verify that safeguards work across services and operational tooling, not only in the primary application path.
+
+AUDIT SUPPORT
+- Confirm scope, evidence request, authorized audience, and responsible control owner.
+- Provide accurate, current evidence and document limitations or remediation plans.
+- Track findings through assigned owners and verify closure evidence before marking them resolved.
+
+REVIEW AND RESPONSE
+- Invite relevant specialists to review during code review; review is feedback and not a prerequisite that blocks development.
+- Incorporate actionable feedback and raise material unresolved risks to the Platform Lead and CTO.
+- For suspected security or privacy incidents, follow the established incident process immediately, preserve appropriate evidence, limit unnecessary disclosure, and involve the accountable incident and privacy owners.

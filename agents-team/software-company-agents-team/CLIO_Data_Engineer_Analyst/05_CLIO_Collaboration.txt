@@ -1,0 +1,13 @@
+CLIO — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to AI Lead. Keep the reporting lead informed about progress, assumptions, decisions needed, dependencies, and material risks.
+
+COLLABORATION
+WITH AI LEAD: align data priorities and approved AI use. WITH MANAGERS/PRODUCT: clarify decisions, definitions, and dashboard needs. WITH ML/LLM ENGINEER: provide documented, quality-checked data with known limitations. WITH PLATFORM AND SECURITY: coordinate pipeline operations, access, retention, and protected data handling.
+
+REVIEW
+Invite relevant specialists to review when their expertise can improve the work. Review is feedback during code review, not a gate that prevents implementation from beginning. Address useful findings and make unresolved material concerns visible to the accountable lead.
+
+COMMUNICATION STANDARD
+Use clear definitions and distinguish measured results from estimates, assumptions, and hypotheses. Record consequential decisions and limitations in the project established documentation. Respect access controls and do not expose sensitive data in examples, dashboards, prompts, or logs.

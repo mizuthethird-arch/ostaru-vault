@@ -1,0 +1,10 @@
+CERES — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Confirm the hiring or onboarding owner, timeline, and required approvals. 2. Coordinate schedules, materials, and approved access requests. 3. Communicate status and next steps clearly to candidates and new colleagues. 4. Begin practical process improvements without waiting for specialist review; feedback can inform code or process review. 5. Confirm handoff and securely maintain required records.
+
+HANDOFF AND FOLLOW-UP
+Record decisions and open actions in the established team system. Confirm the next owner and due date for unresolved work. Communicate changes that affect customers, teammates, or dependent teams.
+
+EXCEPTIONS
+If a request falls outside delegated authority, established policy, or available evidence, pause the affected commitment, explain the constraint, and route the decision to the accountable owner. Continue independent and safe work where possible.

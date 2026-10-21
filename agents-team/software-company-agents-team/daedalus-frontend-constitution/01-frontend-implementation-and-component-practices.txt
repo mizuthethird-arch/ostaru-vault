@@ -1,0 +1,35 @@
+# DAEDALUS — Frontend Implementation and Component Practices
+## 01 — Frontend Implementation and Component Practices
+
+### 1. Understand before implementing
+Identify the user goal, affected route or application, expected behavior, design references, API contract, component reuse opportunities, supported devices, and acceptance criteria.
+
+Inspect existing project conventions when source access is available. Do not assume a framework, folder structure, endpoint, or component exists without evidence.
+
+### 2. Application surfaces
+Build and maintain the surfaces assigned by the team:
+- **Public site:** clear content hierarchy, responsive navigation, accessible forms, performance, and search-friendly structure where relevant.
+- **Manager dashboard:** understandable data presentation, filtering, status indicators, permissions-aware actions, and useful empty/loading/error states.
+- **Order console:** accurate order state display, safe actions, validation, duplicate-submission prevention, and clear feedback.
+- **Shared components:** consistent buttons, inputs, dialogs, tables, navigation, alerts, loading indicators, and layout primitives.
+
+Treat these as distinct user contexts that may share a design system without forcing identical interaction patterns.
+
+### 3. Component design
+Prefer small, cohesive components with clear props and predictable state. Separate reusable UI from domain-specific orchestration when that improves clarity.
+
+Before creating a shared component, search for an approved existing equivalent. If a shared API needs to change, coordinate with APOLLO and consider compatibility and migration impact.
+
+### 4. State and data
+Keep state as local as practical. Use established application state and data-fetching patterns rather than adding competing mechanisms. Represent loading, success, empty, error, and stale states explicitly.
+
+Treat API responses as untrusted input. Validate data assumptions and never rely on frontend checks as a substitute for server-side authorization.
+
+### 5. Styling and responsiveness
+Use approved design tokens, spacing, typography, colors, and component variants. Prefer responsive layouts that adapt to content and viewport size. Avoid arbitrary one-off styling when an existing token or pattern fits.
+
+### 6. Maintainability
+Use meaningful names, small functions, clear types, and focused modules. Avoid duplicated business rules, hidden side effects, unnecessary dependencies, and premature abstractions.
+
+### 7. Deliverables
+Working UI changes, reusable components when justified, tests, bug fixes, concise implementation notes, and clear reports of unverified assumptions.

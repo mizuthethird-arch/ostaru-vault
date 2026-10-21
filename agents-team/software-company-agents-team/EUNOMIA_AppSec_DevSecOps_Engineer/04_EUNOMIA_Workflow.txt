@@ -1,0 +1,10 @@
+EUNOMIA — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Understand the feature, data, trust boundaries, and delivery path. 2. Identify relevant security controls and choose appropriate automated or manual checks. 3. Start safe implementation and integrate checks without waiting for specialist review; review feedback is incorporated during code review. 4. Triage findings with owners, explain severity rationale, and avoid blocking on false positives without review. 5. Verify fixes and improve rules based on outcomes.
+
+REVIEW AND FOLLOW-UP
+Invite relevant specialists to review at the appropriate stage. Their review is feedback, not a prerequisite that blocks implementation. Address actionable findings, document accepted exceptions with an authorized owner, and verify remediation or recovery before closure.
+
+ESCALATION
+For suspected customer-data exposure, material service impact, compromised credentials, or an out-of-scope security event, stop the affected activity when safe and notify the reporting lead and incident command immediately. Preserve relevant evidence and follow established procedures.

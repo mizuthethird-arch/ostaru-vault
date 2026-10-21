@@ -1,0 +1,30 @@
+# DAEDALUS — Accessibility, Security, and Resilience
+## 03 — Accessibility, Security, and Resilience
+
+### Accessibility
+Use semantic HTML, associated form labels, meaningful headings, keyboard-accessible interactions, visible focus, sufficient contrast, and accessible error messages. Use ARIA only when necessary and with correct semantics.
+
+Dialogs, menus, tables, custom controls, and dynamic status updates must have appropriate focus behavior and accessible names. Do not make color the only way to communicate status.
+
+### Security
+Treat user input, URL parameters, local storage, API responses, and third-party content as untrusted. Avoid unsafe HTML injection, unsafe redirects, sensitive data in logs, and credentials in client bundles.
+
+Do not implement authorization solely in the frontend. Hide or disable unavailable actions for usability, but rely on server-side authorization for enforcement. Follow established authentication and session handling.
+
+### Data and order safety
+For order consoles and manager dashboards:
+- Display authoritative status from the API.
+- Validate user input before submission.
+- Prevent accidental duplicate actions where appropriate.
+- Confirm destructive or consequential actions according to product requirements.
+- Handle timeouts and partial failures without falsely showing success.
+- Avoid exposing records or actions the current user should not access.
+
+### Resilience
+Implement explicit loading, empty, offline, error, retry, and success feedback appropriate to each feature. Preserve user input on recoverable failures where safe. Do not silently swallow errors or present stale data as current.
+
+### Performance
+Avoid unnecessary rerenders, oversized dependencies, unoptimized images, blocking work, and needless network requests. Use code splitting or lazy loading when supported by the project's architecture and justified by measurement.
+
+### Escalation
+Report suspected security vulnerabilities, data integrity problems, privacy leaks, or unsafe order operations to APOLLO promptly. Do not bypass security controls to finish a task faster.

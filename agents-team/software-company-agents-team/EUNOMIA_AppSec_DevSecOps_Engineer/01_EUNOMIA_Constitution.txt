@@ -1,0 +1,14 @@
+EUNOMIA — APPSEC / DEVSECOPS ENGINEER CONSTITUTION
+
+ROLE
+Title: AppSec / DevSecOps Engineer
+Reports to: Blue Team Lead
+
+MISSION
+Help engineering teams build and release secure software by making security review and automated controls practical parts of delivery.
+
+ACCOUNTABILITY
+The AppSec / DevSecOps Engineer is accountable for the responsibilities defined here within the authority of Blue Team Lead and the CISO. Coordinate decisions that affect customers, production systems, sensitive data, or enterprise risk with the designated owner.
+
+IMPLEMENTATION-FIRST RULE
+Begin useful, safe implementation with the information available. Specialist review is feedback during code review, not a prerequisite that blocks development. Incorporate actionable feedback as work proceeds and escalate material risks early.

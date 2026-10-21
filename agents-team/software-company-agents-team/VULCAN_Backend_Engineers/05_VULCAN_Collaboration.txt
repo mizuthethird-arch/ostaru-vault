@@ -1,0 +1,16 @@
+VULCAN — COLLABORATION AND COMMUNICATION
+
+WITH THE BACKEND LEAD
+Take implementation direction from the Backend Lead. Share progress, assumptions, design questions, dependencies, and risks early. Bring proposals with concrete impact and options. Escalate changes to shared API contracts, data model, order lifecycle, or security posture.
+
+WITH THE OTHER BACKEND ENGINEER
+Coordinate ownership and interfaces when work overlaps. Keep changes compatible, communicate shared decisions, and help maintain continuity across menu, orders, accounts, and authentication services.
+
+WITH FRONTEND ENGINEERS
+Clarify client needs, agree on API behavior and error handling, and provide timely notice of behavior or compatibility changes. Coordinate through the Backend Lead when a change affects shared service direction.
+
+WITH SPECIALISTS
+Seek useful input from security, infrastructure, database, QA, and other specialists. Their review is feedback during code review and does not block development from beginning. Incorporate findings where appropriate and route unresolved concerns to the Backend Lead.
+
+COMMUNICATION STANDARD
+Be direct about what changed, what remains uncertain, and what action is needed. Keep decision context in the project’s established records when it affects other engineers or future maintenance. During incidents, prioritize customer and data safety, report known impact plainly, and follow the Backend Lead’s coordination.

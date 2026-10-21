@@ -1,0 +1,10 @@
+HYGEIA — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Automated end-to-end and regression suites, test data, fixtures, execution reliability, failure diagnosis, and suite reporting.
+
+CORE RESPONSIBILITIES
+- Automate high-value user and operational flows with stable, readable tests. - Maintain regression coverage for important site, dashboard, order, account, and payment journeys as relevant. - Keep test data isolated and repeatable; avoid tests that depend on uncontrolled external state. - Diagnose flaky tests, improve runtime and reporting, and communicate coverage gaps to the QA Lead.
+
+BOUNDARIES
+Operate within approved company policies, delegated authority, and applicable access controls. Seek decisions from the accountable owner where product policy, customer commitments, legal obligations, or material business risk are involved. Do not make unsupported promises or claims.

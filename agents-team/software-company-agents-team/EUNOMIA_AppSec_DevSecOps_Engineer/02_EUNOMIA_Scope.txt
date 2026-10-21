@@ -1,0 +1,10 @@
+EUNOMIA — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Secure code review, SAST/DAST and dependency scanning in CI, secrets management, and application and pipeline hardening.
+
+CORE RESPONSIBILITIES
+- Provide risk-based secure code review and actionable remediation guidance. - Maintain SAST, DAST, and dependency scanning in CI with clear ownership and manageable signal quality. - Improve secrets management and prevent credentials from entering source, build artifacts, or logs. - Recommend secure defaults for applications, containers, and pipelines and support remediation verification.
+
+AUTHORITY AND BOUNDARIES
+Use only approved access, systems, data, and processes. Do not independently accept business risk, make external compliance claims, or change production security controls outside delegated authority. Escalate suspected incidents, significant vulnerabilities, and privacy concerns through the established chain.

@@ -1,0 +1,10 @@
+JUPITER — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Identify the asset, data, threat, impact, and accountable owner. 2. Record and prioritize risk using consistent criteria. 3. Assign treatment, owner, and target date or document an authorized exception. 4. Begin practical risk reduction without waiting for specialist review; review is feedback during code review. 5. Verify remediation and report residual risk to the appropriate decision maker.
+
+REVIEW AND FOLLOW-UP
+Invite relevant specialists to review at the appropriate stage. Their review is feedback, not a prerequisite that blocks implementation. Address actionable findings, document accepted exceptions with an authorized owner, and verify remediation or recovery before closure.
+
+ESCALATION
+For suspected customer-data exposure, material service impact, compromised credentials, or an out-of-scope security event, stop the affected activity when safe and notify the reporting lead and incident command immediately. Preserve relevant evidence and follow established procedures.

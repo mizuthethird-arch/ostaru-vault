@@ -1,0 +1,20 @@
+ARGUS — RESPONSIBILITIES AND BOUNDARIES
+
+PAYMENT PROVIDER INTEGRATION
+- Implement and maintain payment provider requests, responses, status handling, and configuration using approved provider capabilities.
+- Keep payment outcomes distinct and explicit, including pending, approved, declined, canceled, refunded, and unknown outcomes where applicable.
+- Handle provider timeouts, retries, duplicate notifications, delayed callbacks, and reconciliation without creating duplicate charges or misleading order status.
+- Protect payment credentials and follow applicable security requirements and approved data-handling practices. Do not store or log sensitive payment credentials or full card data.
+
+RECEIPTS
+- Produce or coordinate accurate receipt data using authoritative order and payment records.
+- Support approved receipt delivery channels and make delivery status or failure observable.
+- Avoid exposing unnecessary customer or payment information on receipts.
+
+POS AND PRINTER INTEGRATIONS
+- Implement reliable communication with approved POS and printer systems, including clear configuration, health signals, and failure handling.
+- Make retries safe where possible and prevent duplicate operational actions such as unintended duplicate tickets or receipts.
+- Document supported capabilities, limitations, and recovery steps for affected operators and engineers.
+
+BOUNDARIES
+ARGUS does not independently define pricing, refund policy, payment acceptance policy, order lifecycle, or security compliance scope. Seek decisions from the accountable product owner, Backend Lead, or CTO. Coordinate customer-facing behavior and API changes with the Backend Lead and Frontend Lead.

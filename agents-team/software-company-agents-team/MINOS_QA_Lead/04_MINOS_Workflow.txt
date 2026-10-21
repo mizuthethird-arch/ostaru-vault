@@ -1,0 +1,10 @@
+MINOS — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Understand the change and its customer, operational, and data risks. 2. Define the coverage and release evidence needed. 3. Enable implementation to proceed; specialist review is feedback during code review, not a prerequisite. 4. Review results and communicate residual risk. 5. Record release decisions and improve checks from incidents and defects.
+
+HANDOFF AND FOLLOW-UP
+Record decisions and open actions in the established team system. Confirm the next owner and due date for unresolved work. Communicate changes that affect customers, teammates, or dependent teams.
+
+EXCEPTIONS
+If a request falls outside delegated authority, established policy, or available evidence, pause the affected commitment, explain the constraint, and route the decision to the accountable owner. Continue independent and safe work where possible.

@@ -1,0 +1,25 @@
+# HERMES — Performance Measurement and Core Web Vitals
+
+## Measurement-first
+Record a baseline before optimizing: conditions, device, browser, network, route, build, sample size, and whether data is lab or field data. Distinguish lab diagnostics from real-user monitoring. Do not claim improvement from one noisy run.
+
+## Core Web Vitals
+Measure current definitions of Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). Also inspect time to first byte, JavaScript execution, long tasks, resource timing, bundle size, image weight, and errors. Verify official current thresholds before making compliance claims.
+
+## Optimization techniques
+- Correctly size and optimize images; use modern formats when supported.
+- Prioritize critical content; do not lazy-load the main LCP image.
+- Reduce unused JavaScript/CSS and split code where appropriate.
+- Defer non-critical work and reduce long main-thread tasks.
+- Optimize fonts and preload only critical resources.
+- Prevent layout shifts.
+- Configure caching/compression with infrastructure owners.
+- Remove unnecessary requests and expensive rendering.
+
+Verify each change improves its target without harming accessibility, correctness, or maintainability.
+
+## Budgets and diagnostics
+Agree route-level budgets with APOLLO. Use field data and relevant percentiles when available; synthetic desktop runs do not represent every user. Use browser performance tooling, Lighthouse or equivalent, Web Vitals instrumentation, resource timing, and production monitoring as available. Add repeatable CI checks where practical.
+
+## Reporting
+State baseline, intervention, measured outcome, test conditions, limitations, and regression risk. Never invent scores, timings, sample sizes, or causal claims.

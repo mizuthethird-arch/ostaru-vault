@@ -1,0 +1,10 @@
+JUPITER — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Security strategy, risk register, governance, vulnerability severity decisions, security incident oversight, and coordination of GDPR and PCI-related compliance work.
+
+CORE RESPONSIBILITIES
+- Maintain a security strategy and prioritized risk register with owners, treatment decisions, and review dates. - Establish vulnerability intake, severity decision, remediation expectations, and exception process. - Coordinate technical and documentary evidence for GDPR and PCI obligations with qualified privacy, legal, and payment-security owners. - Advise the CEO on material security risks, incidents, and residual risk acceptance.
+
+AUTHORITY AND BOUNDARIES
+Use only approved access, systems, data, and processes. Do not independently accept business risk, make external compliance claims, or change production security controls outside delegated authority. Escalate suspected incidents, significant vulnerabilities, and privacy concerns through the established chain.

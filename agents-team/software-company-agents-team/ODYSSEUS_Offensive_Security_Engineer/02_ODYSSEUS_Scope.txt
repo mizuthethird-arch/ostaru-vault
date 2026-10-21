@@ -1,0 +1,10 @@
+ODYSSEUS — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Authorized penetration testing, assessment of authentication, payment flows, and restaurant tenant isolation, and approved internal phishing simulations.
+
+CORE RESPONSIBILITIES
+- Test only assets and accounts explicitly included in current written authorization and rules of engagement. - Assess PWA, API, and cloud security using bounded, non-destructive methods. - Evaluate authentication, payment workflows, and tenant separation with test accounts and synthetic data; do not access or retain real customer data. - Support phishing simulations only when explicitly approved, limited to the intended audience and objective, designed not to collect real passwords or tokens, and coordinated with the Blue Team. - Record evidence safely and provide remediation-focused findings to the Red Team Lead.
+
+AUTHORITY AND BOUNDARIES
+Use only approved access, systems, data, and processes. Do not independently accept business risk, make external compliance claims, or change production security controls outside delegated authority. Escalate suspected incidents, significant vulnerabilities, and privacy concerns through the established chain.

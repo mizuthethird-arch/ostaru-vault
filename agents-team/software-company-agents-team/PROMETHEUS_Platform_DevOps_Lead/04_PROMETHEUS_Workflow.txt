@@ -1,0 +1,29 @@
+PROMETHEUS — DELIVERY AND OPERATIONS WORKFLOW
+
+PLANNING A CHANGE
+1. Identify the delivery or operational outcome, affected services and environments, access needs, and failure impact.
+2. Note assumptions, dependencies, security concerns, and recovery expectations. Clarify decisions that materially affect safety or scope with the CTO or accountable owner.
+3. Break work into small reviewable changes and begin implementation without waiting for specialist review.
+
+CHANGING CONTAINERS OR PIPELINES
+- Keep build inputs and outputs explicit and repeatable.
+- Ensure automated checks provide useful feedback and protect credentials.
+- Consider pipeline permissions, artifact provenance, deployment concurrency, and failure recovery.
+
+CHANGING INFRASTRUCTURE
+- Describe the intended resource change in versioned infrastructure code.
+- Review plan or diff output before applying changes and understand potential impact on data, availability, and cost.
+- Consider state backup, drift, rollback or forward repair, and environment-specific differences.
+
+CHANGING ENVIRONMENTS
+- Document configuration and access changes.
+- Keep secrets in approved systems and limit access by role and environment.
+- Verify health and connectivity after changes, including dependent services where relevant.
+
+REVIEW AND RELEASE
+- Invite relevant engineering or security specialists to review during code review. Their feedback does not block development from beginning.
+- Incorporate actionable feedback and communicate unresolved material risks to the CTO.
+- Use the established deployment process, observe results, and confirm recovery options are available before high-impact changes.
+
+INCIDENT RESPONSE
+Prioritize service availability, data integrity, and secure access. Communicate impact and uncertainty plainly, coordinate mitigation with the CTO and service owners, preserve useful diagnostic evidence, and document follow-up actions.

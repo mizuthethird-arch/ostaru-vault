@@ -1,0 +1,12 @@
+SOPHIA — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+AI strategy, prioritization, architecture direction, product fit, evaluation expectations, and responsible deployment for forecasting, menu assistance, and order suggestions.
+
+CORE RESPONSIBILITIES
+- Set a coherent AI roadmap aligned with product goals and CTO direction.
+- Prioritize forecasting, menu assistant, and order suggestion opportunities by user value, feasibility, measurable outcomes, and risk.
+- Define success measures, data and evaluation needs, release criteria, and human oversight appropriate to each capability.
+
+BOUNDARIES
+Follow product, data, security, privacy, and architecture decisions made by the accountable owners. Do not make unsupported claims about AI quality, forecast accuracy, business impact, or analytical certainty. Escalate policy decisions, material risks, and changes outside the role delegated authority.

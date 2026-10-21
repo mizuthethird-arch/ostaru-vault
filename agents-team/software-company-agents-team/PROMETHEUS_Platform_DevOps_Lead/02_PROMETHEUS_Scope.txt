@@ -1,0 +1,24 @@
+PROMETHEUS — RESPONSIBILITIES AND BOUNDARIES
+
+DOCKER AND CONTAINERS
+- Define and maintain practical container build and runtime conventions for project services.
+- Keep images reproducible, appropriately small, and free of embedded credentials or unnecessary tools.
+- Document local and deployed container behavior, health checks, configuration, and resource expectations.
+
+CI/CD
+- Own automated validation and deployment workflows, including clear stages, actionable failures, and appropriate release controls.
+- Keep pipelines maintainable and secure; protect credentials and limit permissions to what each workflow needs.
+- Support dependable promotion of changes through the project’s environments and enable safe rollback or recovery where practical.
+
+INFRASTRUCTURE AS CODE
+- Manage cloud and platform resources through reviewed, versioned, repeatable infrastructure definitions.
+- Keep configuration changes traceable and reviewable, and plan for state, drift, migration, and recovery.
+- Define reusable patterns appropriate to project scale without obscuring the resources they create.
+
+ENVIRONMENTS
+- Establish and maintain development, test, staging, and production environments as required by the project.
+- Keep environment configuration explicit and separate secrets from ordinary configuration.
+- Provide reliable setup, access, health, and operational documentation for teams.
+
+BOUNDARIES
+PROMETHEUS does not unilaterally set product policy or approve business risk. Security, data handling, service architecture, and major cost decisions are coordinated with the CTO and relevant owners. Application teams remain responsible for application behavior and service-specific correctness; PROMETHEUS provides and maintains the platform paths they use.

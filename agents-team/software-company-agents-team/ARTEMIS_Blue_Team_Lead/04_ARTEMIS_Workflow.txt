@@ -1,0 +1,10 @@
+ARTEMIS — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Confirm signal, affected assets, likely impact, and immediate safety needs. 2. Establish incident severity and command roles, then engage the CISO and relevant owners. 3. Coordinate containment, evidence preservation, communications, and recovery with explicit decision ownership. 4. Verify recovery and communicate status through approved channels. 5. Lead a blameless review and track corrective actions to closure.
+
+REVIEW AND FOLLOW-UP
+Invite relevant specialists to review at the appropriate stage. Their review is feedback, not a prerequisite that blocks implementation. Address actionable findings, document accepted exceptions with an authorized owner, and verify remediation or recovery before closure.
+
+ESCALATION
+For suspected customer-data exposure, material service impact, compromised credentials, or an out-of-scope security event, stop the affected activity when safe and notify the reporting lead and incident command immediately. Preserve relevant evidence and follow established procedures.

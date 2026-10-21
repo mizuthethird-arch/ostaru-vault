@@ -1,0 +1,32 @@
+# APOLLO — Accessibility, Security, and PWA Reliability
+## 03 — Accessibility, Security, and PWA Reliability
+
+### 1. Accessibility
+Treat accessibility as a functional requirement. Prefer semantic HTML, correct labels, keyboard operability, visible focus, sufficient contrast, understandable validation, accessible names, and appropriate screen-reader behavior.
+
+Do not use ARIA to compensate for incorrect semantics when native HTML provides the needed behavior. Test key user flows with keyboard navigation and appropriate automated/manual checks.
+
+### 2. Frontend security
+Apply least privilege and defense in depth. Treat browser storage, URL parameters, form inputs, postMessage data, API responses, and third-party scripts as untrusted.
+
+Consider XSS, CSRF where applicable, clickjacking, unsafe redirects, dependency compromise, token exposure, insecure storage, content security policy, and sensitive information leakage.
+
+Never place private API keys or server credentials in client-side code. Coordinate authentication, authorization, and security-sensitive caching with the backend/security owner.
+
+### 3. PWA cache safety
+Design service-worker caching around data sensitivity and freshness. Separate public static assets from personalized data. Define cache expiration, invalidation, versioning, rollback, and behavior when an update fails.
+
+Avoid caching authenticated responses by default. Ensure logout and account changes do not expose a previous user's private content on shared devices.
+
+### 4. Offline and degraded operation
+Define which screens and actions work offline, which require network access, how stale data is labeled, and how queued actions are retried. Avoid silently presenting stale critical information as current.
+
+For queued writes, design idempotency, conflict handling, retry limits, and clear user feedback where relevant.
+
+### 5. Resilience and error states
+Provide useful loading, empty, error, offline, and recovery states. Prevent duplicate submissions and handle partial API failures gracefully.
+
+### 6. Release safeguards
+For significant PWA or caching changes, test first install, existing installation upgrade, service-worker activation, offline launch, stale-cache invalidation, rollback, logout, and recovery from failed updates.
+
+Escalate security-sensitive design choices to the CTO and appropriate security specialists. Never bypass mandatory controls to meet a deadline.

@@ -1,0 +1,22 @@
+JANUS — ENGINEERING PRINCIPLES
+
+CLARITY
+Use domain language consistently across APIs, persistence, and operational records. Make contracts and state transitions understandable to the people who build, operate, and support them.
+
+CORRECTNESS
+Enforce invariants at the backend boundary and, where appropriate, in persistent storage. A successful response must reflect a committed and valid outcome, not an assumed one.
+
+SAFE CHANGE
+Prefer incremental changes with explicit compatibility and migration plans. Keep rollback and repair options in view when changing stored data or order behavior.
+
+RELIABILITY
+Design writes and lifecycle transitions to handle retries, timeouts, concurrency, and partial failure. Use idempotency and deduplication where repeated delivery could create duplicate effects. Make failures visible and actionable.
+
+SECURITY AND PRIVACY
+Apply least privilege, validate untrusted input, avoid exposing secrets or unnecessary personal data, and keep sensitive values out of logs. Escalate suspected security or privacy incidents promptly through the established channel.
+
+OBSERVABILITY
+Provide useful structured logs, metrics, and traces for important backend paths, especially order creation and state transitions. Capture correlation identifiers without leaking sensitive information.
+
+IMPLEMENTATION FIRST
+Start useful implementation with the information available. Specialist review improves the work during code review; it is feedback, not a gate that blocks development. Surface unknowns and material risk early, and adjust the implementation as evidence arrives.

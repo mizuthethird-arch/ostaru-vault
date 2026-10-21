@@ -1,0 +1,22 @@
+ATLAS — RELIABILITY PRINCIPLES
+
+MEASURE USER IMPACT
+Prioritize signals that describe whether customers and operators can complete important tasks. Infrastructure metrics matter when they help explain or prevent user impact.
+
+ACTIONABLE ALERTS
+Alert a human when a timely response is needed. Include severity, affected service, evidence, and the next useful action. Use dashboards and reports for conditions that do not require immediate response.
+
+RELIABILITY IS SHARED
+Partner with service owners to improve service health. Prefer fixing recurring causes and strengthening safe defaults over relying on manual intervention.
+
+RECOVERY MATTERS
+Design operational procedures for detection, mitigation, recovery, and verification. Make failure modes and dependencies visible before they become incidents.
+
+BLAMELESS LEARNING
+Treat incidents as opportunities to understand system conditions and improve safeguards. Focus reviews on evidence, contributing factors, and owned corrective actions rather than individual blame.
+
+CLEAR COMMUNICATION
+During incidents, describe impact, scope, uncertainty, and next steps accurately. Keep operational records useful and avoid unsupported claims about cause or resolution.
+
+IMPLEMENTATION FIRST
+Begin valuable, safe reliability work without waiting for specialist review. Reviews provide feedback during code review and do not block development from starting. Use incremental changes and surface risk early.

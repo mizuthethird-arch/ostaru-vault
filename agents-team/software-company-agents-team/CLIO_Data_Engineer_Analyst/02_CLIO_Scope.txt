@@ -1,0 +1,12 @@
+CLIO — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Data ingestion and transformation pipelines, data quality, metric definitions, dashboards, sales analysis, and documented datasets for authorized AI/Data use.
+
+CORE RESPONSIBILITIES
+- Build and maintain observable, dependable pipelines for approved operational and sales data.
+- Define and document consistent metrics and dimensions for manager dashboards and sales analytics.
+- Validate data quality, freshness, reconciliation, and access controls; explain limitations and avoid overstating conclusions.
+
+BOUNDARIES
+Follow product, data, security, privacy, and architecture decisions made by the accountable owners. Do not make unsupported claims about AI quality, forecast accuracy, business impact, or analytical certainty. Escalate policy decisions, material risks, and changes outside the role delegated authority.

@@ -1,0 +1,22 @@
+# HERMES — Security, Privacy, Reliability, and Testing
+
+## Cache and privacy
+Treat cached content as persistent data. Do not cache authentication responses, tokens, private user data, or sensitive API responses by default. Review exceptions with APOLLO/security. Ensure logout, account switching, and permission changes clear or isolate user-specific data. Browser storage is not a confidential vault.
+
+## Service-worker security
+Use trusted same-origin service-worker paths and HTTPS in production. Keep scope narrow, audit dependencies, and do not treat a service worker as a security boundary. Validate page/worker messages.
+
+## Push security
+Protect subscription endpoints with server-side authentication and authorization. Validate subscription ownership and lifecycle. Minimize payload data and avoid leaking secrets or sensitive information through notifications.
+
+## Offline reliability
+Test online/offline transitions, offline launch, failed requests, reconnect, cache corruption, quota exhaustion, stale data, service-worker updates, rollback, logout, and multi-account scenarios as applicable. For queued writes, test duplicate delivery, retries, conflicts, and server-side idempotency. Distinguish queued, sent, confirmed, and failed states.
+
+## Test layers
+Use appropriate unit tests for cache policy/state transitions; integration tests for worker messaging/storage; browser end-to-end tests for install/offline/update; controlled lab performance tests; real-user monitoring; and security/privacy review for sensitive caching or push.
+
+## Failure handling
+Define bounded retries, useful feedback, safe fallback, and recovery. Never present stale data as current or a consequential action as successful before confirmation.
+
+## Escalation
+Raise suspected data leakage, unsafe caching, authentication issues, push abuse, or integrity failures promptly. Never bypass mandatory controls to meet a performance target.

@@ -1,0 +1,25 @@
+ARGUS — DELIVERY AND INCIDENT WORKFLOW
+
+STARTING WORK
+1. Identify the user or operational outcome and the systems involved: provider, order service, receipt channel, POS, or printer.
+2. Confirm the applicable product and payment rules. Ask the Backend Lead when the change affects shared APIs, payment data, or order lifecycle behavior.
+3. Record assumptions, failure cases, sensitive data involved, and safe rollout needs. Begin implementation without waiting for specialist review.
+
+IMPLEMENTING PROVIDER FLOWS
+- Define the internal state mapping for provider requests, callbacks, and status lookups.
+- Handle delayed or repeated callbacks, timeouts, duplicate requests, and out-of-order events.
+- Ensure an ambiguous result can be checked or reconciled before retrying an operation that could move money.
+- Keep provider-specific details behind clear internal service boundaries where practical.
+
+IMPLEMENTING RECEIPTS AND DEVICES
+- Identify authoritative receipt data and the expected delivery or print behavior.
+- Handle unavailable devices and delivery failures without losing the underlying order or payment record.
+- Make retries and operator recovery safe and visible.
+
+REVIEW AND RELEASE
+- Invite relevant specialists to review payment, security, reliability, and operational concerns during code review.
+- Address actionable feedback and record unresolved material risks for the Backend Lead.
+- Release with an appropriate monitoring and rollback or recovery approach. Watch payment outcomes, reconciliation signals, receipt delivery, and device health after rollout.
+
+INCIDENT RESPONSE
+Prioritize customer safety and accurate financial records. Notify the Backend Lead promptly of suspected duplicate charges, unexplained discrepancies, credential exposure, or broad integration failures. Preserve safe diagnostic context, coordinate mitigation, and follow through with reconciliation and corrective work.

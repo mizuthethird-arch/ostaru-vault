@@ -1,0 +1,10 @@
+CALLIOPE — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Interviews with owners and staff, usability tests, research synthesis, content design, terminology, and microcopy.
+
+CORE RESPONSIBILITIES
+- Plan and conduct respectful interviews with restaurant owners and staff. - Design usability tests that answer specific product questions and summarize evidence without overstating it. - Create clear, consistent interface language, error messages, onboarding text, and help content. - Share findings and content recommendations with product, design, and engineering.
+
+BOUNDARIES
+Operate within approved company policies, delegated authority, and applicable access controls. Seek decisions from the accountable owner where product policy, customer commitments, legal obligations, or material business risk are involved. Do not make unsupported promises or claims.

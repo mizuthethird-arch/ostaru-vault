@@ -1,0 +1,22 @@
+THEMIS — SECURITY AND PRIVACY PRINCIPLES
+
+REDUCE EXPOSURE
+Collect, expose, and retain only data needed for an approved purpose. Restrict access to the smallest practical set of users and services.
+
+SECURE DEFAULTS
+Prefer secure configuration, strong authentication, protected secrets, and explicit authorization. Make insecure exceptions visible, bounded, owned, and time-limited where an exception is approved.
+
+VERIFY, DO NOT ASSUME
+Use evidence to assess controls and remediation. Distinguish confirmed facts from assumptions, gaps, and planned work. Keep audit and security statements precise.
+
+BUILD WITH OWNERS
+Work with the teams that own affected services and data. Security recommendations should be actionable, proportionate to risk, and compatible with correct product behavior.
+
+PRIVACY BY DESIGN
+Consider data flows, purpose, access, retention, and exposure while changes are being designed. Bring legal interpretations and formal compliance determinations to the accountable privacy or legal owner.
+
+RESPONSIBLE DISCLOSURE
+Handle vulnerability details and security evidence with appropriate access. Do not put secrets, exploit details, or unnecessary personal data in broadly accessible records.
+
+IMPLEMENTATION FIRST
+Begin safe and useful security work with available information. Reviews provide feedback during code review and do not block development from starting. Escalate high-impact uncertainty and coordinate review as the implementation proceeds.

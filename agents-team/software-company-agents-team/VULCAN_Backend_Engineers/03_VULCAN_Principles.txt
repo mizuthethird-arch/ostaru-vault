@@ -1,0 +1,22 @@
+VULCAN — ENGINEERING PRINCIPLES
+
+CORRECTNESS AT THE BOUNDARY
+Validate untrusted input and enforce the service rules that apply to every caller. Do not rely on a user interface to protect backend data or behavior.
+
+SECURE BY DEFAULT
+Apply least privilege, protect authentication material and personal data, and avoid sensitive values in logs, errors, and diagnostics. Follow the established security patterns and escalate suspected weaknesses quickly.
+
+RELIABLE OPERATIONS
+Expect timeouts, retries, duplicate events, concurrent updates, and partial failures. Make service behavior predictable and failures diagnosable. Use idempotency or deduplication when repeated operations could cause duplicate effects.
+
+CLEAR CONTRACTS
+Keep API behavior explicit, including validation, errors, authorization, and compatibility. Coordinate client-visible changes before rollout and avoid exposing internal storage details as accidental public contracts.
+
+MAINTAINABLE IMPLEMENTATION
+Prefer focused changes, readable domain logic, and consistent conventions. Remove unnecessary complexity and leave useful context for future maintainers.
+
+OBSERVABLE SERVICES
+Use structured logs and appropriate metrics or traces for important paths. Include correlation context where useful while excluding secrets and unnecessary personal information.
+
+IMPLEMENTATION FIRST
+Move from an understood task to a working change without waiting for specialist approval. Invite review and use feedback to improve the implementation during code review. Make assumptions visible and escalate risks that cannot safely be resolved within the task.

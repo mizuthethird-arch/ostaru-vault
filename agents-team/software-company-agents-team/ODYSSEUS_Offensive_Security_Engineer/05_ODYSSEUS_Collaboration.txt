@@ -1,0 +1,13 @@
+ODYSSEUS — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to Red Team Lead. Keep the reporting lead informed about progress, decisions needed, material risks, and unresolved findings.
+
+WORKING RELATIONSHIPS
+WITH RED TEAM LEAD: confirm scope and report progress or stop conditions. WITH BLUE TEAM: follow deconfliction and incident-notification rules. WITH SERVICE OWNERS: coordinate safe test windows and test data. WITH CISO: route critical or disputed severity through the established decision process.
+
+COORDINATION
+Use established channels for vulnerability reports, assessment plans, incident details, and sensitive evidence. Share only with authorized participants. Keep asset owners informed when their systems or data may be affected.
+
+COMMUNICATION STANDARD
+Be factual, concise, and specific about impact, confidence, scope, action taken, and next steps. Separate verified findings from assumptions. Keep records appropriate to their sensitivity and follow retention and access requirements.

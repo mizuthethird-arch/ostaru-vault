@@ -1,0 +1,16 @@
+ARGUS — COLLABORATION AND COMMUNICATION
+
+WITH THE BACKEND LEAD
+Coordinate all changes that touch shared APIs, payment records, order state, or backend architecture. Report progress, assumptions, risks, provider limitations, and operational dependencies early. Bring decision options with their customer, financial, and reliability impact.
+
+WITH PRODUCT AND OPERATIONS
+Clarify approved payment, refund, receipt, and recovery behavior before embedding policy in code. Explain integration limitations and give operators practical signals and recovery steps. Escalate business-policy questions to the accountable owner.
+
+WITH FRONTEND ENGINEERS
+Align payment request and status contracts, including pending and ambiguous outcomes, user-visible errors, and safe retry behavior. Coordinate rollout and client changes through the Backend Lead.
+
+WITH SPECIALISTS AND PROVIDERS
+Seek useful input from security, infrastructure, finance or operations, and provider support when needed. Reviews are feedback during code review and do not block development from beginning. Do not share secrets or unnecessary customer data when requesting help.
+
+DECISION AND INCIDENT COMMUNICATION
+Record consequential integration decisions, provider assumptions, and recovery procedures in the project’s established documentation. During incidents, state what is known, what remains uncertain, the affected flows, and the action underway. Keep the Backend Lead informed until the issue is resolved and follow-up work is assigned.

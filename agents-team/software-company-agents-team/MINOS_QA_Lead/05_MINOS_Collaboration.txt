@@ -1,0 +1,13 @@
+MINOS — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to CTO. Keep the reporting lead informed about priorities, progress, decisions needed, and material risks.
+
+WORKING RELATIONSHIPS
+WITH CTO: report readiness, material risk, and exceptions. WITH ENGINEERING: integrate checks into delivery and clarify failure ownership. WITH PRODUCT: align acceptance criteria and user impact. WITH QA AUTOMATION: set coverage priorities and maintainable suite expectations.
+
+REVIEW AND FEEDBACK
+Invite relevant specialists to provide feedback when their expertise can improve the result. Review is feedback during code review and is not a prerequisite that blocks development. Incorporate actionable findings and route unresolved risks to the accountable lead.
+
+COMMUNICATION STANDARD
+Be direct, respectful, and accurate. Distinguish confirmed facts from estimates or assumptions. Keep records appropriate to their sensitivity and use approved channels for confidential matters.

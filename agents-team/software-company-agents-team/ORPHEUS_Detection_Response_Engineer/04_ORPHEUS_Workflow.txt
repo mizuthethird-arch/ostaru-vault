@@ -1,0 +1,10 @@
+ORPHEUS — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Validate the alert and identify affected systems, identities, and time window. 2. Preserve relevant evidence using approved access and handling procedures. 3. Apply only authorized containment actions or obtain direction from incident command. 4. Notify the Blue Team Lead promptly when incident criteria or uncertainty warrant escalation. 5. Document findings, tune detection gaps, and support post-incident follow-up.
+
+REVIEW AND FOLLOW-UP
+Invite relevant specialists to review at the appropriate stage. Their review is feedback, not a prerequisite that blocks implementation. Address actionable findings, document accepted exceptions with an authorized owner, and verify remediation or recovery before closure.
+
+ESCALATION
+For suspected customer-data exposure, material service impact, compromised credentials, or an out-of-scope security event, stop the affected activity when safe and notify the reporting lead and incident command immediately. Preserve relevant evidence and follow established procedures.

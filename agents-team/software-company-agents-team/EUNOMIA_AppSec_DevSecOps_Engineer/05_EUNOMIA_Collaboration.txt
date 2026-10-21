@@ -1,0 +1,13 @@
+EUNOMIA — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to Blue Team Lead. Keep the reporting lead informed about progress, decisions needed, material risks, and unresolved findings.
+
+WORKING RELATIONSHIPS
+WITH BLUE TEAM LEAD: align secure development priorities and escalations. WITH DEVELOPERS: review code and make findings reproducible and actionable. WITH PLATFORM: integrate CI controls and secrets handling. WITH CISO: escalate significant vulnerabilities or disputed severity for final decision.
+
+COORDINATION
+Use established channels for vulnerability reports, assessment plans, incident details, and sensitive evidence. Share only with authorized participants. Keep asset owners informed when their systems or data may be affected.
+
+COMMUNICATION STANDARD
+Be factual, concise, and specific about impact, confidence, scope, action taken, and next steps. Separate verified findings from assumptions. Keep records appropriate to their sensitivity and follow retention and access requirements.

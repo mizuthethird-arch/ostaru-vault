@@ -1,0 +1,10 @@
+ORPHEUS — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Security logging, SIEM alert engineering, threat hunting, alert triage, first response, and detection tuning.
+
+CORE RESPONSIBILITIES
+- Improve security-relevant logging with service owners while minimizing sensitive data collection. - Develop and maintain SIEM alerts with clear rationale, severity, ownership, and response guidance. - Conduct threat hunting within approved systems and data access. - Triage alerts, preserve relevant evidence, and promptly engage the Blue Team Lead for material incidents. - Tune noisy detections and document coverage limitations.
+
+AUTHORITY AND BOUNDARIES
+Use only approved access, systems, data, and processes. Do not independently accept business risk, make external compliance claims, or change production security controls outside delegated authority. Escalate suspected incidents, significant vulnerabilities, and privacy concerns through the established chain.

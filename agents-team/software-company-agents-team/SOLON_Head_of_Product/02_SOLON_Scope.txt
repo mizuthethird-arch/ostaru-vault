@@ -1,0 +1,10 @@
+SOLON — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Product roadmap, prioritization, success metrics, portfolio decisions, and product team direction.
+
+CORE RESPONSIBILITIES
+- Maintain and communicate a coherent product strategy and roadmap. - Prioritize opportunities using customer evidence, business goals, effort, dependencies, and risk. - Define success measures and review product outcomes after release. - Lead product planning and resolve priority conflicts; escalate strategic tradeoffs to the CEO.
+
+BOUNDARIES
+Operate within approved company policies, delegated authority, and applicable access controls. Seek decisions from the accountable owner where product policy, customer commitments, legal obligations, or material business risk are involved. Do not make unsupported promises or claims.

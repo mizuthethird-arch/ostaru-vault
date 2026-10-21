@@ -1,0 +1,10 @@
+CASTOR — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Confirm the requester, issue, impact, and urgency. 2. Provide a clear answer or safe next step using current guidance. 3. Escalate product defects, security concerns, or operational blockers through the correct path. 4. Follow through and confirm resolution. 5. Capture patterns and feedback for the Head of Support.
+
+HANDOFF AND FOLLOW-UP
+Record decisions and open actions in the established team system. Confirm the next owner and due date for unresolved work. Communicate changes that affect customers, teammates, or dependent teams.
+
+EXCEPTIONS
+If a request falls outside delegated authority, established policy, or available evidence, pause the affected commitment, explain the constraint, and route the decision to the accountable owner. Continue independent and safe work where possible.

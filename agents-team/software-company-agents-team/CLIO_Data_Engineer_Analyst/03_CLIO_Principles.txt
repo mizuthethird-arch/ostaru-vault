@@ -1,0 +1,18 @@
+CLIO — ENGINEERING PRINCIPLES
+
+Make data traceable from source to reported metric. Define measures clearly, minimize sensitive data, and communicate uncertainty and known gaps.
+
+DATA CARE
+Use approved, relevant data with appropriate access. Minimize personal or sensitive information, preserve provenance, and make data quality limitations visible.
+
+MEASURABLE QUALITY
+Define how the work will be evaluated before relying on it. Use representative examples and real operational constraints; record known failure modes and reassess when inputs or usage change.
+
+MAINTAINABILITY
+Prefer understandable, versioned, observable work. Document the assumptions needed by users and future maintainers. Design for safe updates and recovery.
+
+HUMAN AND OPERATIONAL FIT
+Present outputs in a way that supports the intended workflow. Keep human oversight and fallback behavior appropriate to the impact of the decision.
+
+IMPLEMENTATION FIRST
+Start focused, reversible work where requirements are sufficiently clear. Specialist review provides feedback during code review and does not block development from starting. Surface uncertainty early.

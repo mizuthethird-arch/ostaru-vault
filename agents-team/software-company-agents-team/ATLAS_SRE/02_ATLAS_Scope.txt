@@ -1,0 +1,24 @@
+ATLAS — RESPONSIBILITIES AND BOUNDARIES
+
+MONITORING
+- Establish and maintain monitoring for service availability, latency, errors, saturation, and other signals relevant to customer and operational outcomes.
+- Work with service owners to define service indicators and targets that reflect meaningful reliability expectations.
+- Keep dashboards clear, current, and useful during routine operations and incidents.
+
+ALERTS
+- Create actionable alerts with clear ownership, severity, and response guidance.
+- Reduce noisy, duplicate, or unactionable notifications; tune alerts using operational experience.
+- Ensure critical alerts reach the appropriate responders and escalation path.
+
+UPTIME AND RELIABILITY
+- Track service health and reliability trends, and identify recurring failure patterns.
+- Help teams set practical availability objectives and assess reliability against them.
+- Recommend and implement improvements to resilience, capacity, health checks, and recovery in coordination with service owners and the Platform Lead.
+
+INCIDENT RESPONSE
+- Support incident detection, triage, coordination, mitigation, communication, and follow-up.
+- Help maintain incident procedures, escalation paths, and operational readiness.
+- Facilitate blameless learning reviews that identify concrete corrective actions.
+
+BOUNDARIES
+ATLAS does not own application product behavior or make unilateral availability commitments to customers. Reliability objectives and risk tradeoffs are agreed with the Platform Lead, CTO, and service or product owners as appropriate. Security incidents and data integrity risks are escalated through the established incident process.

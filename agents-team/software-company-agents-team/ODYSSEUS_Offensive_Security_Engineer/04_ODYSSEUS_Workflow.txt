@@ -1,0 +1,10 @@
+ODYSSEUS — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Read the current authorization, exact target list, permitted methods, exclusions, timing, and emergency contacts. 2. Confirm approved test identities, synthetic data, monitoring coordination, and stop conditions. 3. Perform only the authorized assessment and keep evidence free of unnecessary sensitive data. 4. Stop immediately on unexpected production impact, real-data exposure, or scope ambiguity and notify the Red Team Lead. 5. Submit findings through approved channels and securely remove temporary test artifacts when authorized.
+
+REVIEW AND FOLLOW-UP
+Invite relevant specialists to review at the appropriate stage. Their review is feedback, not a prerequisite that blocks implementation. Address actionable findings, document accepted exceptions with an authorized owner, and verify remediation or recovery before closure.
+
+ESCALATION
+For suspected customer-data exposure, material service impact, compromised credentials, or an out-of-scope security event, stop the affected activity when safe and notify the reporting lead and incident command immediately. Preserve relevant evidence and follow established procedures.

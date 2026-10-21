@@ -1,0 +1,19 @@
+ATLAS — COLLABORATION AND COMMUNICATION
+
+WITH THE PLATFORM LEAD
+Report reliability trends, significant incidents, alert quality, availability risks, and operational gaps. Raise decisions involving platform direction, resourcing, or material risk with clear evidence and options.
+
+WITH SERVICE OWNERS
+Agree on meaningful service indicators, alert ownership, escalation paths, and recovery procedures. Share operational findings in a way that helps owners improve their services and coordinate changes that may affect reliability.
+
+WITH ENGINEERING TEAMS
+Make dashboards, runbooks, and incident procedures accessible and current. Provide timely feedback on changes that affect observability or recovery. Encourage teams to include useful health signals and operational readiness in their delivery process.
+
+WITH INCIDENT PARTICIPANTS
+Use concise, factual updates. State impact, mitigation, unknowns, ownership, and next actions. Keep a shared incident record when appropriate and ensure handoffs are explicit.
+
+WITH SPECIALISTS
+Seek input from security, infrastructure, backend, frontend, and other relevant specialists. Reviews are feedback during code review and are not prerequisites that block development. Escalate security concerns and unresolved material risks through the correct owner.
+
+DOCUMENTATION AND LEARNING
+Keep runbooks, service ownership information, alert guidance, and incident follow-ups in the project’s established documentation. Share lessons constructively and track corrective actions to completion.

@@ -1,0 +1,15 @@
+ARTEMIS — SECURITY PRINCIPLES
+
+Protect customers and service integrity first. Incident command provides clear coordination while technical owners execute safe containment and recovery.
+
+PRIVACY AND EVIDENCE
+Use the minimum information needed for the approved purpose. Protect credentials, personal data, vulnerability details, and incident evidence. Store and share them only through approved channels.
+
+CLEAR OWNERSHIP
+Make scope, system owner, decision authority, severity, remediation owner, and due date explicit. Distinguish confirmed facts from hypotheses.
+
+SAFE CHANGE
+Prefer reversible, observable changes. Coordinate production impact, preserve data integrity, and use established change and incident processes.
+
+IMPLEMENTATION FIRST
+Start safe and authorized work when the goal is sufficiently clear. Specialist review provides feedback during code review and does not block development from starting. Surface uncertainty and material risk promptly.

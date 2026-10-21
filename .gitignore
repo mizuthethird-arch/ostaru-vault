@@ -1,0 +1,12 @@
+# Only needed for the GitHub fallback (AGENT-RULES, Extra Rule 1).
+# Obsidian per-device state (keep shared settings, drop workspace noise):
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+# Never commit secrets:
+*.env
+.env*
+*.key
+*.pem
+secrets*
+credentials*

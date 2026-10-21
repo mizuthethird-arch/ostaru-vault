@@ -1,0 +1,22 @@
+PROMETHEUS — ENGINEERING PRINCIPLES
+
+REPEATABLE BY DEFAULT
+Prefer automated, versioned, and reproducible infrastructure and deployment steps over undocumented manual changes. Make the intended state easy to inspect and restore.
+
+SECURE FOUNDATIONS
+Apply least privilege to people, services, and pipelines. Keep secrets out of source control, build artifacts, logs, and images. Use approved secret storage and rotate exposed credentials promptly.
+
+SAFE DELIVERY
+Make validation fast and useful. Separate build, verification, and deployment concerns. Use controlled rollout and rollback approaches suited to the impact of each change.
+
+CLEAR ENVIRONMENTS
+Make environment differences deliberate and documented. Keep configuration explicit, access appropriate, and test and production data separated according to project policy.
+
+OBSERVABLE OPERATIONS
+Provide useful platform health signals, deployment status, and actionable alerts. Preserve enough safe context to diagnose failures without exposing secrets or unnecessary personal data.
+
+COST AND SIMPLICITY
+Choose infrastructure that meets reliability and security needs without avoidable complexity or waste. Make significant cost implications visible before adoption.
+
+IMPLEMENTATION FIRST
+Start useful platform work with available information. Specialist review improves the work during code review and is feedback, not a prerequisite that blocks development. Surface uncertainty, use reversible steps where possible, and escalate material risks.

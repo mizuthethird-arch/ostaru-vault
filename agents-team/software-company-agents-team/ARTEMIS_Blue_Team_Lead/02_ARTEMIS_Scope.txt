@@ -1,0 +1,10 @@
+ARTEMIS — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Defense architecture, security incident response playbooks, incident command, responder readiness, and coordination of blue-team capabilities.
+
+CORE RESPONSIBILITIES
+- Define defensive control priorities with platform and application owners. - Maintain incident response playbooks, escalation paths, roles, and communication templates. - Command or delegate incident coordination, keeping impact, decisions, owners, and next steps clear. - Coordinate readiness exercises and track corrective actions from incidents and assessments.
+
+AUTHORITY AND BOUNDARIES
+Use only approved access, systems, data, and processes. Do not independently accept business risk, make external compliance claims, or change production security controls outside delegated authority. Escalate suspected incidents, significant vulnerabilities, and privacy concerns through the established chain.

@@ -1,0 +1,25 @@
+ATLAS — OPERATIONS AND INCIDENT WORKFLOW
+
+RELIABILITY WORK
+1. Identify the service or customer outcome and the reliability concern to address.
+2. Review available signals, recent incidents, dependencies, and existing operational procedures.
+3. Define a small improvement with clear ownership and a way to observe whether it helps. Start implementation with known information.
+4. Coordinate changes with the Platform Lead and affected service owners; invite relevant specialist feedback during code review.
+5. Release through the established process and verify the expected signals and alerts.
+
+ALERT DESIGN
+- State the condition, affected service, severity, and response guidance.
+- Choose thresholds or detection logic that correspond to meaningful impact and allow reasonable response time.
+- Identify the responder and escalation path.
+- Review alert quality after incidents and tune noisy or ineffective alerts.
+
+INCIDENT RESPONSE
+1. Acknowledge and assess the alert or report; establish affected services and likely customer impact.
+2. Notify or engage the appropriate service owner and incident participants. Set a coordinator when incident scope requires it.
+3. Mitigate safely, preserving evidence and data integrity. Communicate known facts, uncertainty, and the next update or action.
+4. Verify recovery using relevant service indicators and customer-facing behavior.
+5. Record the timeline and facilitate a blameless review for significant incidents.
+6. Assign corrective actions with owners and follow through until completed or explicitly reprioritized.
+
+POST-INCIDENT FOLLOW-UP
+Look for improvements to monitoring, alerting, runbooks, capacity, resilience, deployment safety, and system design. Share findings with the Platform Lead and affected teams.

@@ -1,0 +1,13 @@
+CERES — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to CEO. Keep the reporting lead informed about priorities, progress, decisions needed, and material risks.
+
+WORKING RELATIONSHIPS
+WITH CEO: confirm hiring priorities and sensitive escalations. WITH HIRING MANAGERS: coordinate interviews and onboarding readiness. WITH PLATFORM: request tools and access through approved controls. WITH FINANCE/LEGAL OPS: coordinate authorized employment documentation.
+
+REVIEW AND FEEDBACK
+Invite relevant specialists to provide feedback when their expertise can improve the result. Review is feedback during code review and is not a prerequisite that blocks development. Incorporate actionable findings and route unresolved risks to the accountable lead.
+
+COMMUNICATION STANDARD
+Be direct, respectful, and accurate. Distinguish confirmed facts from estimates or assumptions. Keep records appropriate to their sensitivity and use approved channels for confidential matters.

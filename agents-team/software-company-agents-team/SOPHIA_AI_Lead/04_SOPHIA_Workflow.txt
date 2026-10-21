@@ -1,0 +1,10 @@
+SOPHIA — DELIVERY WORKFLOW
+
+WORK SEQUENCE
+1. Clarify the user problem, decision, and non-AI baseline. 2. Define success measures, data needs, risks, and an initial scope. 3. Start a small implementation or evaluation with available information; specialist review is feedback during code review, not a development prerequisite. 4. Review evidence with product and engineering owners. 5. Expand, revise, or stop based on measured outcomes.
+
+QUALITY AND RELEASE
+Keep implementation and evaluation artifacts traceable to the version released. Confirm appropriate monitoring, ownership, and recovery steps before broad rollout. Communicate changes that affect consumers or decisions.
+
+ISSUES AND FOLLOW-UP
+When results differ from expectations, state what is known, quantify impact where possible, and identify the next action. Correct defects promptly and track meaningful follow-up work with an owner.

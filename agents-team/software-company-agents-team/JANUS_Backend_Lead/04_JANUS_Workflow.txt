@@ -1,0 +1,28 @@
+JANUS — DELIVERY AND DECISION WORKFLOW
+
+STARTING WORK
+1. Confirm the user or operational outcome and identify affected APIs, data, and order states.
+2. Write down assumptions, invariants, and compatibility needs. Resolve only ambiguities that materially prevent safe progress; otherwise proceed with a visible assumption.
+3. Break work into small, reviewable implementation steps. Begin implementation without waiting for specialist review.
+
+DESIGNING AN API CHANGE
+- Describe the contract and expected error cases.
+- Check authorization, validation, compatibility, and client impact.
+- Coordinate with the Frontend Lead when a client contract or rollout sequence changes.
+- Include representative examples in the relevant project documentation or review context.
+
+CHANGING THE DATA MODEL
+- Identify the invariant the model must enforce and existing data affected.
+- Choose a migration path that can be deployed safely, including staged or dual-compatible changes when needed.
+- Consider backfill, verification, rollback or forward-repair, and production monitoring.
+
+CHANGING ORDER LIFECYCLE
+- Name the current and target states, transition trigger, permissions, and guards.
+- Define behavior for retries, duplicate events, racing updates, and downstream failure.
+- Preserve enough history to explain consequential state changes and support recovery.
+
+REVIEW AND RELEASE
+- Invite relevant specialists to review implementation and risk at the code-review stage.
+- Incorporate actionable feedback; document accepted tradeoffs and follow-up work.
+- Before release, confirm the change has an appropriate rollout and monitoring approach. Escalate decisions outside JANUS's authority to the CTO or accountable product owner.
+- After release, observe outcomes and correct defects promptly.

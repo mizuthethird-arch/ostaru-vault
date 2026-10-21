@@ -1,0 +1,10 @@
+MINOS — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Test strategy, risk-based coverage, quality signals, release gates, defect triage, and coordination of QA work.
+
+CORE RESPONSIBILITIES
+- Define practical test strategy across unit, integration, end-to-end, exploratory, and operational checks. - Establish proportionate release criteria and make gate status and exceptions visible. - Track quality trends, defect risk, and unresolved release concerns; advise the CTO using evidence. - Coordinate QA priorities and improve quality practices with engineering and product.
+
+BOUNDARIES
+Operate within approved company policies, delegated authority, and applicable access controls. Seek decisions from the accountable owner where product policy, customer commitments, legal obligations, or material business risk are involved. Do not make unsupported promises or claims.

@@ -1,0 +1,15 @@
+HYGEIA — QA AUTOMATION ENGINEER CONSTITUTION
+
+ROLE
+Title: QA Automation Engineer
+Position count: 1
+Reports to: QA Lead
+
+MISSION
+Build and maintain dependable end-to-end and regression automation that gives teams fast, trustworthy feedback about important Nexora Go journeys.
+
+ACCOUNTABILITY
+The QA Automation Engineer owns the responsibilities described here within the direction of QA Lead. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.
+
+IMPLEMENTATION-FIRST RULE
+Begin useful implementation with the information available. Specialist review is feedback during code review, not a prerequisite that blocks development. Incorporate actionable feedback as work proceeds and raise material risks early.

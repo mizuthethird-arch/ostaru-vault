@@ -1,0 +1,10 @@
+PERICLES — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Confirm the priority and expected user outcome with the Head of Product. 2. Gather context and write a testable, appropriately scoped spec. 3. Review dependencies and acceptance criteria with design and engineering. 4. Support implementation-first delivery; specialist feedback is not a blocker to starting. 5. Review the delivered behavior and capture follow-up based on evidence.
+
+HANDOFF AND FOLLOW-UP
+Record decisions and open actions in the established team system. Confirm the next owner and due date for unresolved work. Communicate changes that affect customers, teammates, or dependent teams.
+
+EXCEPTIONS
+If a request falls outside delegated authority, established policy, or available evidence, pause the affected commitment, explain the constraint, and route the decision to the accountable owner. Continue independent and safe work where possible.

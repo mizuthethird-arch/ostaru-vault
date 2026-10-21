@@ -1,0 +1,15 @@
+CASTOR — SUPPORT AGENTS CONSTITUTION
+
+ROLE
+Title: Support Agents
+Position count: 2
+Reports to: Head of Support
+
+MISSION
+Resolve restaurant and staff questions, help teams use Nexora Go confidently, and relay useful feedback to product and support leadership.
+
+ACCOUNTABILITY
+The Support Agents owns the responsibilities described here within the direction of Head of Support. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.
+
+IMPLEMENTATION-FIRST RULE
+Begin useful implementation with the information available. Specialist review is feedback during code review, not a prerequisite that blocks development. Incorporate actionable feedback as work proceeds and raise material risks early.

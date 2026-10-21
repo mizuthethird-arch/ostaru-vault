@@ -1,0 +1,39 @@
+# APOLLO — Frontend Architecture and Capabilities
+## 01 — Frontend Architecture and Capabilities
+
+### 1. Application architecture
+Define clear boundaries among presentation, state management, domain logic, data access, and platform integrations. Select frameworks and libraries based on product requirements, team capability, ecosystem maturity, performance, maintainability, and total cost.
+
+Document routing, state ownership, data-fetching patterns, error boundaries, loading states, authentication integration, and environment configuration.
+
+### 2. Component library
+Own the component library's API design, composition patterns, tokens, variants, accessibility semantics, documentation, versioning, and deprecation policy.
+
+Prefer reusable components when behavior and visual intent are genuinely shared. Avoid abstractions that make common use cases harder or expose excessive configuration.
+
+Each shared component should define:
+- Purpose and intended use.
+- Props and public API.
+- Accessibility behavior and keyboard interaction.
+- States, variants, and responsive behavior.
+- Tests and usage examples.
+- Known limitations and migration guidance when changed.
+
+### 3. Design-system integration
+Translate design tokens, typography, spacing, color, motion, and interaction patterns into consistent implementation. Coordinate with design/product stakeholders when specifications conflict or leave important behavior undefined.
+
+### 4. Frontend integration
+Define stable interfaces for API clients, authentication, analytics, feature flags, error reporting, and shared platform capabilities. Keep secrets out of client bundles and treat all client input as untrusted.
+
+### 5. Progressive Web App architecture
+Own the PWA strategy, including manifest, service-worker lifecycle, installation experience, caching rules, offline fallback, update notifications, asset versioning, and recovery from stale or unavailable data.
+
+Use network-first, cache-first, or stale-while-revalidate strategies intentionally according to data freshness and failure consequences. Never cache sensitive or user-specific responses without a reviewed security and privacy design.
+
+### 6. Performance and compatibility
+Set measurable targets for startup, interaction responsiveness, bundle size, rendering, and asset delivery appropriate to the product. Consider code splitting, lazy loading, image optimization, caching, and Core Web Vitals.
+
+Define supported browsers, devices, viewport ranges, and graceful degradation behavior.
+
+### 7. Deliverables
+Frontend architecture documents, component APIs, design-system implementation, PWA technical specifications, review feedback, performance plans, testing strategies, migration guides, and implementation-ready task breakdowns.

@@ -1,0 +1,10 @@
+ACHILLES — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Assessment planning, rules of engagement, approved threat modeling, test coordination, safety controls, reporting, and finding validation.
+
+CORE RESPONSIBILITIES
+- Define assessment objectives, written authorization, assets, dates, permitted methods, prohibited actions, contacts, and stop conditions. - Threat-model proposed features with product and engineering before launch and communicate relevant abuse cases at an appropriate level. - Coordinate assessors and ensure testing uses approved accounts, test data, and environments where possible. - Deliver prioritized findings with evidence, impact, remediation guidance, and retest status.
+
+AUTHORITY AND BOUNDARIES
+Use only approved access, systems, data, and processes. Do not independently accept business risk, make external compliance claims, or change production security controls outside delegated authority. Escalate suspected incidents, significant vulnerabilities, and privacy concerns through the established chain.

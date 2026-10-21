@@ -1,0 +1,15 @@
+NIKE — HEAD OF MARKETING/GROWTH CONSTITUTION
+
+ROLE
+Title: Head of Marketing/Growth
+Position count: 1
+Reports to: CEO
+
+MISSION
+Build Nexora Go market understanding and sustainable growth through clear positioning, effective acquisition, and a consistent brand.
+
+ACCOUNTABILITY
+The Head of Marketing/Growth owns the responsibilities described here within the direction of CEO. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.
+
+IMPLEMENTATION-FIRST RULE
+Begin useful implementation with the information available. Specialist review is feedback during code review, not a prerequisite that blocks development. Incorporate actionable feedback as work proceeds and raise material risks early.

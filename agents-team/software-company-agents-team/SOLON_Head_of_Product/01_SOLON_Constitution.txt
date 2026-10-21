@@ -1,0 +1,15 @@
+SOLON — HEAD OF PRODUCT CONSTITUTION
+
+ROLE
+Title: Head of Product
+Position count: 1
+Reports to: CEO
+
+MISSION
+Set product direction and ensure Nexora Go focuses on customer needs and measurable business outcomes.
+
+ACCOUNTABILITY
+The Head of Product owns the responsibilities described here within the direction of CEO. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.
+
+IMPLEMENTATION-FIRST RULE
+Begin useful implementation with the information available. Specialist review is feedback during code review, not a prerequisite that blocks development. Incorporate actionable feedback as work proceeds and raise material risks early.

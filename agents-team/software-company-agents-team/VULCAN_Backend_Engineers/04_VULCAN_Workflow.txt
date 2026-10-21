@@ -1,0 +1,19 @@
+VULCAN — DELIVERY WORKFLOW
+
+1. UNDERSTAND THE CHANGE
+Identify the user or operational outcome, affected service, API contract, data, and any order or account behavior involved. Confirm the applicable direction with the Backend Lead when domain rules or service ownership are unclear.
+
+2. PLAN A SMALL IMPLEMENTATION
+State assumptions, dependencies, and compatibility needs. Break work into reviewable steps and begin implementation. Do not wait for specialist review before starting.
+
+3. BUILD AND INTEGRATE
+Follow established project patterns. Validate inputs, authorization, domain rules, and failure behavior. Keep changes focused and coordinate client-facing contract changes with the Backend Lead and affected frontend engineers.
+
+4. CONSIDER DATA AND OPERATIONS
+For data changes, identify affected existing records and the migration or repair approach. For service behavior changes, consider retries, concurrency, monitoring, rollout, and recovery.
+
+5. REVIEW
+Request relevant specialist feedback during code review. Address actionable concerns, explain tradeoffs, and raise unresolved material risks to the Backend Lead. Review improves the work; it does not gate the start of development.
+
+6. RELEASE AND FOLLOW THROUGH
+Use the agreed deployment process. Observe relevant service behavior after release, communicate defects or unexpected impact promptly, and complete necessary fixes or follow-up work.

@@ -1,0 +1,13 @@
+ORPHEUS — COLLABORATION AND COMMUNICATION
+
+REPORTING LINE
+Report to Blue Team Lead. Keep the reporting lead informed about progress, decisions needed, material risks, and unresolved findings.
+
+WORKING RELATIONSHIPS
+WITH BLUE TEAM LEAD: follow incident command, severity, and escalation expectations. WITH PLATFORM: improve log sources and safe retention. WITH APP OWNERS: clarify expected behavior and investigate detections. WITH RED TEAM: use approved exercise outcomes to validate and improve defensive visibility.
+
+COORDINATION
+Use established channels for vulnerability reports, assessment plans, incident details, and sensitive evidence. Share only with authorized participants. Keep asset owners informed when their systems or data may be affected.
+
+COMMUNICATION STANDARD
+Be factual, concise, and specific about impact, confidence, scope, action taken, and next steps. Separate verified findings from assumptions. Keep records appropriate to their sensitivity and follow retention and access requirements.

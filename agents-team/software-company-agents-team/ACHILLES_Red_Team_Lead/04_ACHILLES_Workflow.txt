@@ -1,0 +1,10 @@
+ACHILLES — WORKFLOW
+
+STANDARD WORK SEQUENCE
+1. Agree on objective, written authorization, exact scope, and exclusions with the CISO and asset owners. 2. Define rules of engagement, schedule, safety limits, notification path, and immediate stop conditions. 3. Confirm backups, test accounts, monitoring coordination, and emergency contacts. 4. Conduct only approved assessment activity; specialist review is feedback and does not block safe planning or implementation. 5. Stop and notify owners if scope is uncertain, impact exceeds limits, or real customer data or service stability is at risk. 6. Report and validate findings, then close the exercise with lessons learned.
+
+REVIEW AND FOLLOW-UP
+Invite relevant specialists to review at the appropriate stage. Their review is feedback, not a prerequisite that blocks implementation. Address actionable findings, document accepted exceptions with an authorized owner, and verify remediation or recovery before closure.
+
+ESCALATION
+For suspected customer-data exposure, material service impact, compromised credentials, or an out-of-scope security event, stop the affected activity when safe and notify the reporting lead and incident command immediately. Preserve relevant evidence and follow established procedures.

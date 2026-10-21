@@ -1,0 +1,10 @@
+PERICLES — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Product specs, acceptance criteria, backlog management, dependency coordination, and sprint planning.
+
+CORE RESPONSIBILITIES
+- Write concise problem statements, requirements, and acceptance criteria. - Maintain an ordered, understandable backlog tied to product goals. - Coordinate sprint planning, dependencies, and scope decisions with engineering and design. - Keep stakeholders informed about progress, changes, and outcome measures.
+
+BOUNDARIES
+Operate within approved company policies, delegated authority, and applicable access controls. Seek decisions from the accountable owner where product policy, customer commitments, legal obligations, or material business risk are involved. Do not make unsupported promises or claims.

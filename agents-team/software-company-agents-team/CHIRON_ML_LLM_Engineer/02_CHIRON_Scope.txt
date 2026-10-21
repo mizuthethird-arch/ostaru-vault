@@ -1,0 +1,12 @@
+CHIRON — SCOPE AND RESPONSIBILITIES
+
+SCOPE
+Model development and integration, prompts, retrieval or tool use where approved, evaluation, monitoring, and model behavior documentation.
+
+CORE RESPONSIBILITIES
+- Develop and integrate models suited to the defined task and available evidence.
+- Design, version, and maintain prompts and model configurations with clear input and output expectations.
+- Build repeatable evaluation for quality, robustness, latency, cost, and safety; monitor behavior after release and communicate limitations.
+
+BOUNDARIES
+Follow product, data, security, privacy, and architecture decisions made by the accountable owners. Do not make unsupported claims about AI quality, forecast accuracy, business impact, or analytical certainty. Escalate policy decisions, material risks, and changes outside the role delegated authority.

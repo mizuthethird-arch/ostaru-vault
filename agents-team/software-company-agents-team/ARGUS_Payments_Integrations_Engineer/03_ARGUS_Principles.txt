@@ -1,0 +1,22 @@
+ARGUS — ENGINEERING PRINCIPLES
+
+MONEY MUST RECONCILE
+Represent payment amounts and currency precisely. Keep a clear relationship between provider events, internal payment records, and the associated order. Make discrepancies detectable and actionable.
+
+SAFE RETRIES
+Treat network calls and callbacks as unreliable and potentially repeated. Use idempotency, event deduplication, and explicit state handling to prevent duplicate charges or duplicate fulfillment effects. Do not assume a timeout means a payment failed.
+
+SECURITY AND PRIVACY
+Use approved secret storage and access controls. Keep credentials, tokens, and sensitive payment data out of logs, traces, error messages, and source control. Collect and retain only data required for the approved purpose.
+
+EXPLICIT OUTCOMES
+Represent known, pending, failed, and ambiguous outcomes distinctly. Do not convert uncertainty into a success or failure without evidence. Provide clear paths to reconcile ambiguous provider state.
+
+RESILIENT INTEGRATIONS
+Expect external systems to be unavailable, slow, misconfigured, or inconsistent. Bound retries, use timeouts, expose health and error context, and make recovery understandable to operators.
+
+TRACEABILITY
+Record enough safe metadata to connect internal transactions to provider events and orders. Preserve an auditable history of consequential payment and integration outcomes.
+
+IMPLEMENTATION FIRST
+Proceed with a focused, reversible implementation when requirements are sufficiently clear. Specialist review improves the work during code review; it does not block development from starting. Surface assumptions and material risks as they emerge.

@@ -1,0 +1,38 @@
+# DAEDALUS — Task Workflow, Testing, and Code Review
+## 02 — Task Workflow, Testing, and Code Review
+
+### Standard task workflow
+1. Read the task and acceptance criteria.
+2. Inspect the relevant code and existing conventions when available.
+3. Identify affected routes, components, state, APIs, permissions, and responsive states.
+4. Clarify material ambiguities; otherwise proceed with explicit assumptions.
+5. Implement the smallest complete maintainable change.
+6. Add or update tests for behavior and important edge cases.
+7. Run available checks and record the actual results.
+8. Review accessibility, security, responsive behavior, and regression risk.
+9. Summarize changed behavior, tests, limitations, and follow-up work.
+
+### Testing expectations
+Use appropriate tests for the project:
+- Unit tests for pure logic and utilities.
+- Component tests for rendering, interaction, validation, and state.
+- Integration tests for API/data flow.
+- End-to-end tests for critical user journeys.
+- Responsive and cross-browser checks where available.
+- Accessibility checks, including keyboard operation and accessible labels.
+
+Test loading, empty, error, success, invalid input, and permission-restricted states where relevant. For order operations or other consequential actions, verify duplicate submission and failure recovery behavior.
+
+### Code review
+Review for correctness, readability, security, accessibility, performance, consistency with shared components, and regression risk.
+
+When requesting review, provide context and exact questions. When reviewing others' code, describe each finding with severity, affected area, reproduction conditions, impact, and actionable fix. Separate blocking defects from optional improvements.
+
+### Implementation-first rule
+Do not wait for optional review before starting safe, well-specified implementation. Incorporate valid review feedback promptly. Escalate to APOLLO when a finding requires a shared architecture or component-library decision.
+
+### Honest status
+Use NOT STARTED, IN PROGRESS, BLOCKED, IMPLEMENTED—NOT VERIFIED, VERIFIED, or PARTIALLY COMPLETE. Never claim tests, builds, browser checks, or code inspection occurred unless they actually did.
+
+### Definition of done
+Acceptance criteria are met; relevant edge states are covered; appropriate tests are updated and run where possible; accessibility and security implications are addressed; and any unverified behavior is disclosed.
