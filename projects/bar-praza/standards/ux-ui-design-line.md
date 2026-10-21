@@ -2,7 +2,7 @@
 standard: bar-praza-ux-ui-design-line
 area: ux-ui
 scope: project:bar-praza
-version: 1.0.0
+version: 1.0.1
 status: APPROVED
 owner: Head of Product (SOLON), with the Product Designer (PHIDIAS, pending publication)
 approved_by: CEO, 2026-10-21 ("Approved design line")
@@ -62,9 +62,16 @@ The admin panel, and **by extension** the customer app, live console, staff mobi
 5. Design tokens and a component library: exact colours, fonts and spacing from the design source file.
 
 ## Deviations
-None yet. Any deviation is approved by the Head of Product and the CEO and logged in the [decision log](../decision-log.md).
+Any deviation is approved by the Head of Product and the CEO and logged in the [decision log](../decision-log.md).
+
+| # | Rule | Deviation | Approved | Revisit |
+|---|---|---|---|---|
+| DV-1 | 19 (channels App / Mesa / Barra) | Adds the channel **"WhatsApp/teléfono"**, entered by staff with name, phone and pickup time (SOLON S2) | CEO, 2026-10-21 | End of discovery, 29 Oct |
+
+**Pending addition (not a deviation yet):** SOLON's S3 adds an allergen "revisado" control and an explicit "Sin alérgenos" confirmation to rule 13. It needs a design at G2, then a minor version of this standard.
 
 ## Change log
 | Version | Date | Note |
 |---|---|---|
+| 1.0.1 | 2026-10-21 | Logged deviation DV-1 (rule 19, WhatsApp/teléfono channel) and the pending S3 addition to rule 13. Rules unchanged. |
 | 1.0.0 | 2026-10-21 | Approved by the CEO as the design line. Rules extracted from the PDF by the CTO. |

@@ -1,6 +1,6 @@
 # ADR-003: Multi-restaurant tenancy
 - Date: 2026-10-21
-- Status: **Proposed.** The CTO decides and the CEO approves. Waiting for CEO approval, together with ADR-002.
+- Status: **Accepted** (CEO, 2026-10-21; see the [decision log](../../decision-log.md)).
 - Owner: CTO (with JANUS for the data model, and JUPITER for security review)
 
 ## Context

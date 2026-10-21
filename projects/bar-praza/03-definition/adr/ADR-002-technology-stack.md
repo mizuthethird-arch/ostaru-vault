@@ -1,6 +1,6 @@
 # ADR-002: Technology stack
 - Date: 2026-10-21
-- Status: **Proposed.** The CTO decides and the CEO approves (team charter, section 6). **Waiting for CEO approval.**
+- Status: **Accepted** (CEO, 2026-10-21; see the [decision log](../../decision-log.md)). File storage was added later in [ADR-005](ADR-005-file-storage.md).
 - Owner: CTO
 
 ## Context
