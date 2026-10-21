@@ -20,4 +20,4 @@ Everything needed to recreate ATHENA on any platform (Claude, another AI service
 8. Applicable design standards: [standards/README](../../standards/README.md) (none approved yet)
 
 ## Current working notes
-- None yet. Add only facts from approved work, with source and date.
+- 2026-10-21: role boundary. Architecture (ADRs), feasibility and standards only; product planning goes to SOLON and PERICLES through handoff prompts (AGENT-RULES section 10). See behavior/negative.md.

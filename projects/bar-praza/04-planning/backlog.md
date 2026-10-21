@@ -1,4 +1,6 @@
 # Backlog — Bar Praza
+
+> **CTO DRAFT, handed over (AGENT-RULES section 10).** The CTO drafted this before Rules 6 and 7. It now belongs to **PERICLES (Product Manager)**, who accepts, rewrites or discards it. Handoff prompts: [to SOLON](../handoffs/2026-10-21-ATHENA-to-SOLON.md) and [to PERICLES](../handoffs/2026-10-21-ATHENA-to-PERICLES.md).
 - Owner: PM ([PERICLES](../../../agent-personas/PERICLES.md)); drafted by the CTO, 2026-10-21
 - Last updated: 2026-10-21
 

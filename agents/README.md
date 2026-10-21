@@ -29,7 +29,7 @@ New agents start from [_template](_template/state.md).
 
 | Agent | Role | Folder | Local skills | Behavior entries (+ / −) |
 |---|---|---|---|---|
-| [ATHENA](../agent-personas/ATHENA.md) | CTO | [agents/athena](athena/state.md) | [decision-framework](athena/skills/decision-framework.md) | 0 / 0 |
+| [ATHENA](../agent-personas/ATHENA.md) | CTO | [agents/athena](athena/state.md) | [decision-framework](athena/skills/decision-framework.md) | 0 / 1 |
 | [JANUS](../agent-personas/JANUS.md) | Backend Lead | [agents/janus](janus/state.md) | none yet | 0 / 0 |
 | [VULCAN](../agent-personas/VULCAN.md) | Backend Engineers | [agents/vulcan](vulcan/state.md) | none yet | 0 / 0 |
 | [PROMETHEUS](../agent-personas/PROMETHEUS.md) | Platform/DevOps Lead | [agents/prometheus](prometheus/state.md) | none yet | 0 / 0 |

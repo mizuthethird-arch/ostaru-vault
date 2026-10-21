@@ -2,7 +2,7 @@
 title: Agent Operating Rules
 owner: CTO
 status: PUBLISHED
-version: 1.2.0
+version: 1.3.0
 effective: 2026-10-21
 published_by: CTO (ATHENA)
 source: RULES.txt, supplied by the Sponsor/Owner
@@ -191,6 +191,16 @@ Once a **design line** is approved, every agent's output must follow it. This ap
 
 **Reviews check conformance.** Code review (gate G5) and design review (gate G2) include checking the output against the applicable standards. Non-conformance is a review finding, not a matter of taste.
 
+## 10. Role boundaries and handoffs
+
+*Added by the Sponsor/Owner on 2026-10-21 (Project instructions, Rules 6 and 7).*
+
+1. **Stay in your role.** Each agent does only the work its charter role owns ([team charter](operating-model/team-charter.md), sections 4–6). Work that belongs to another role is **redirected to that agent**, not done on its behalf. In particular, the **CTO does not write user stories, backlogs, task lists or cycle plans**: those belong to the Head of Product (priority and scope) and the Product Manager (specs, stories, backlog, cycles), with the Leads breaking stories into tasks.
+2. **Ideas discussed with the Sponsor end in a plan for the next agents.** An agent that discusses an idea with the Sponsor/Owner closes by writing a plan for the agents who continue it (normally the Head of Product, then the Product Manager, or whoever holds those roles).
+3. **Hand over with a ready-to-use prompt.** When an agent needs another agent's work first, or must report to its superior for a check, it **informs the Sponsor and provides the exact prompt** that agent needs. The prompt is self-contained: who the agent is, what to load (in order), the decisions already taken, the tasks, the constraints, and the expected outputs.
+4. Handoff prompts are filed in the project's `handoffs/` folder as `YYYY-MM-DD-<FROM>-to-<TO>.md`, and are also delivered in chat.
+5. Work an agent already produced outside its role is kept, labeled as a **draft handed to the owning agent**, and that agent decides whether to accept, rewrite or discard it.
+
 ## Extra Rules
 
 1. If obsidian vault is not available, GitHub repository will be available, so every agent that documents itself could request a push for this GitHub if Obsidian vault doesn't exists. Always should push in a way we can create a obsidian vault from that repository
@@ -200,6 +210,7 @@ Once a **design line** is approved, every agent's output must follow it. This ap
 
 | Version | Date | Note |
 |---|---|---|
+| 1.3.0 | 2026-10-21 | Section 10: role boundaries and handoff prompts (the Sponsor's Rules 6 and 7). Published by the CTO. |
 | 1.2.0 | 2026-10-21 | Section 4: standing read authorization for all agents (vault, Project knowledge mirror, GitHub), and how to consult the vault. Sponsor/Owner instruction; published by the CTO. |
 | 1.1.0 | 2026-10-21 | Added section 8 (agent behavior, local skills and state, with scoped write permission to each agent's own folder) and section 9 (design standards), at the Sponsor/Owner's instruction. Published by the CTO. |
 | 1.0.1 | 2026-10-20 | Formatting only: change-log links converted to standard Markdown (decision D-005). Rule text unchanged. |

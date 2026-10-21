@@ -5,7 +5,7 @@
 
 | Area | Status | Next step | Owner | Blocked by |
 |---|---|---|---|---|
-| Product | NOT STARTED | Discovery with Bar Praza (current process, WhatsApp volume) | SOLON | Idea brief approval |
+| Product | NOT STARTED | SOLON: idea brief review with the CEO, discovery plan, Release 1 scope, then a plan for PERICLES ([handoff](handoffs/2026-10-21-ATHENA-to-SOLON.md)). PERICLES: own the spec, stories, backlog and Cycle 1 ([handoff](handoffs/2026-10-21-ATHENA-to-PERICLES.md)) | SOLON, then PERICLES | CEO to run the handoff prompts |
 | Design | PARTIALLY COMPLETE | Admin panel approved; design the customer app, console, staff mobile and platform screens | SOLON (Product Designer pending) | Product Designer persona not published |
 | Frontend | NOT STARTED | Cycle 1: design tokens, atoms, admin shell | CTO (interim; Frontend Lead pending) | ADR-002 approval; frontend agents not published |
 | Backend | NOT STARTED | Cycle 1: tenancy and identity core, data-access spike | JANUS, VULCAN | ADR-002 and ADR-003 approval |

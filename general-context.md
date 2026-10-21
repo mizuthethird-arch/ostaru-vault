@@ -2,7 +2,7 @@
 title: General Context
 owner: CTO (publishes changes; see AGENT-RULES section 4)
 status: PUBLISHED
-version: 1.20.0
+version: 1.21.0
 effective: 2026-10-21
 contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager), and the CEO
 ---
@@ -45,7 +45,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 - Anything outside the vault (codebase, repositories, tools, external services) still needs separate task-specific permission ([AGENT-RULES](AGENT-RULES.md), section 3).
 
 ## 5. Shared constraints
-- **Operating rules:** [AGENT-RULES](AGENT-RULES.md) v1.2.0. Code is delivered in chat, there is no file or tool access without task-specific permission, and vault updates are proposed to the CTO.
+- **Operating rules:** [AGENT-RULES](AGENT-RULES.md) v1.3.0. Code is delivered in chat, there is no file or tool access without task-specific permission, and vault updates are proposed to the CTO.
 - **Operating model:** the CEO's [team charter](operating-model/team-charter.md) and [startup workflow](operating-model/startup-workflow.md), both v1.0. They set roles, decision rights, phases 0–8, gates G1–G8 and handoff artifacts. They grant decision rights, **not access**; how they fit with the rules is in [operating-model/README](operating-model/README.md).
 - **Founder rule:** while the CEO is the only human, every gate also needs CEO approval, and no agent approves its own work (charter sections 1 and 10).
 - **Implementation-first:** work starts with the information available. Specialist review is code-review feedback, not a prerequisite.
@@ -76,6 +76,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | D-018 | VYRO PrivateCloud is paused. | CEO | 2026-10-21 | Executive decision. Its folder is kept as is. |
 | D-019 | Bar Praza build order: the restaurant dashboard first (Release 1), the public customer app and online payments last. | CEO | 2026-10-21 | Executive decision; [MVP spec](projects/bar-praza/03-definition/mvp-spec.md). |
 | D-020 | The CEO's Project Rules 3–5 apply to every project: Rule 3, a modular monolith that is easy to split into microservices; Rule 4, focused changes, no over-engineering, unit tests always; Rule 5, learning from code and decisions is saved in the vault. Rules 3 and 4 are recorded as approved standards; Rule 5 is carried out through AGENT-RULES section 8. | CEO | 2026-10-21 | Executive decision; [standards/README](standards/README.md). |
+| D-021 | Role boundaries and handoffs (the CEO's Rules 6 and 7): agents stay in their role, ideas end in a plan for the next agents, and handoffs carry a ready-to-use prompt. The CTO does not write user stories or task plans. | CEO | 2026-10-21 | Executive decision; AGENT-RULES v1.3.0, section 10. |
 
 **Current priorities (CEO, 2026-10-21):** 1. **Bar Praza**, Release 1: the restaurant dashboard (public app last). VYRO PrivateCloud is **paused**.
 
@@ -104,6 +105,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 
 | Version | Date | Note |
 |---|---|---|
+| 1.21.0 | 2026-10-21 | D-021 (role boundaries and handoffs); rules v1.3.0. |
 | 1.20.0 | 2026-10-21 | D-019 (dashboard first) and D-020 (CEO Rules 3–5 as standards). |
 | 1.19.0 | 2026-10-21 | Product defined (multi-restaurant ordering SaaS; Bar Praza first); priorities set; D-016 to D-018. |
 | 1.18.0 | 2026-10-21 | D-015: standing read access for all agents; vault mirrored into the Claude Project knowledge. |

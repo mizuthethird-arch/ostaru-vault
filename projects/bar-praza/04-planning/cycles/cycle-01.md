@@ -1,4 +1,6 @@
 # Cycle 1 — Bar Praza
+
+> **CTO DRAFT, handed over (AGENT-RULES section 10).** The CTO drafted this before Rules 6 and 7. It now belongs to **PERICLES (Product Manager), with the Leads breaking it into tasks**, who accepts, rewrites or discards it. Handoff prompts: [to SOLON](../../handoffs/2026-10-21-ATHENA-to-SOLON.md) and [to PERICLES](../../handoffs/2026-10-21-ATHENA-to-PERICLES.md).
 - Dates: starts once the CEO approves ADR-002 and ADR-003; two weeks
 - Planned by: CTO, with the PM (PERICLES)
 - Goal: **a running, tested skeleton.** The monorepo and CI, tenant-safe sign-in, the admin shell in the design line, and the first slice of the menu (Carta y productos) that can be clicked through in demo mode.

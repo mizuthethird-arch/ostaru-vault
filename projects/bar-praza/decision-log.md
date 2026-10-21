@@ -2,6 +2,12 @@
 
 > Add each decision as a new entry at the top (workflow template E). Mark whether it is an **executive decision** (CEO) or an **agent recommendation**.
 
+## 2026-10-21 — Planning handed to SOLON and PERICLES (Rules 6 and 7)
+- Type: process correction, from the Sponsor's new rules
+- Decided by: CEO (Project instructions, Rules 6 and 7)
+- Decision: the CTO's draft MVP spec, backlog and Cycle 1 plan are handed to the Head of Product and the Product Manager to own. The CTO keeps architecture only (ADR-001 to ADR-003). Handoff prompts are in [handoffs/](handoffs/2026-10-21-ATHENA-to-SOLON.md).
+- Revisit on: when SOLON's plan reaches PERICLES.
+
 ## 2026-10-21 — Build order: dashboard first, public app last
 - Type: executive decision
 - Decided by: CEO ("We need to start working first in all the dashboard (with the feature shown in image). The public part will be the last part.")

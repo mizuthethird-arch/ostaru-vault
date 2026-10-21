@@ -1,4 +1,6 @@
 # MVP spec — Bar Praza, Release 1: restaurant dashboard
+
+> **CTO DRAFT, handed over (AGENT-RULES section 10).** The CTO drafted this before Rules 6 and 7. It now belongs to **PERICLES (Product Manager), with SOLON (Head of Product) deciding scope and priority**, who accepts, rewrites or discards it. Handoff prompts: [to SOLON](../handoffs/2026-10-21-ATHENA-to-SOLON.md) and [to PERICLES](../handoffs/2026-10-21-ATHENA-to-PERICLES.md).
 - Version: 0.1 (DRAFT)
 - Owner: PM ([PERICLES](../../../agent-personas/PERICLES.md)); drafted by the CTO on the CEO's instruction of 2026-10-21
 - Approved by: pending. The Head of Product approves the spec (gate G1), and the CEO approves the MVP plan.
