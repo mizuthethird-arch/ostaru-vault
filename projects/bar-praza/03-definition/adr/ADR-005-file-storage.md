@@ -1,10 +1,10 @@
 # ADR-005: File storage for product photos
 - Date: 2026-10-21
-- Status: **Accepted by the CTO (Q8).** It adds one component to ADR-002, which the CEO approved; the CEO can overrule it. Not needed before F2-05 (Cycle 2 [E]).
+- Status: **Accepted by the CTO (Q8).** It adds one component to the stack in [ADR-006](ADR-006-technology-stack-v2.md); the CEO can overrule it. Not needed before F2-05 (Cycle 2 [E]).
 - Owner: CTO (PROMETHEUS for hosting and cost, EUNOMIA for the G3 upload review)
 
 ## Context
-F2-05 attaches a photo to each product. ADR-002 names no file storage (PERICLES, Q8). Photos must stay separate per restaurant (ADR-003, risk K-1), and uploads are an attack surface (gate G3).
+F2-05 attaches a photo to each product. The original stack (ADR-002) named no file storage (PERICLES, Q8). Photos must stay separate per restaurant (ADR-003, risk K-1), and uploads are an attack surface (gate G3).
 
 ## Options considered
 1. **S3-compatible object storage behind a storage interface.** MinIO in Docker Compose for dev; an EU-region S3-compatible provider for staging and production.

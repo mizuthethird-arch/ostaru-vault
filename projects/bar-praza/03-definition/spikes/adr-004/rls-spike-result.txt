@@ -1,0 +1,32 @@
+PASS  T1 A sees only its 2 products  (got: 2)
+PASS  T2 A cannot read B product by id  (got: 0)
+PASS  T3 A cannot insert a row for B (WITH CHECK)  (got: 1)
+PASS  T4a A update of B rows touches 0  (got: 0)
+PASS  T4b A delete of B rows touches 0  (got: 0)
+PASS  T4c A cannot re-assign its row to B  (got: 1)
+PASS  T5 no tenant context -> 0 rows  (got: 0)
+PASS  T5b after commit on same connection -> 0 rows (is_local reverted, nullif guard works)  (got: 0)
+PASS  T5c GOTCHA: naive ::uuid cast on a reused connection raises an error (so keep the nullif guard)  (got: 1)
+PASS  T6 request 3 with no context on a reused connection sees 0 rows  (got: 0)
+PASS  T7 ANTI-PATTERN: session-level set persists across requests (A rows visible with no per-request context)  (got: 2)
+PASS  T8a table owner bypasses RLS without FORCE  (got: 3)
+PASS  T8b with FORCE the owner is filtered too  (got: 0)
+PASS  T8c superuser still bypasses (tests must connect as app_user)  (got: 3)
+PASS  T9 LEAK: global unique(pin_hash) reveals that B has this PIN hash (must be unique(restaurant_id,...))  (got: 1)
+PASS  T9b per-tenant unique allows the same value in another tenant  (got: 1)
+PASS  T10 join products x variants returns only A rows  (got: 2)
+PASS  T11a plain view (runs as owner) with FORCE RLS and no context  (got: 0)
+PASS  T11b security_invoker view respects the caller's tenant  (got: 2)
+PASS  T12 SECURITY DEFINER function owned by a FORCE-RLS owner is still filtered (0 with no context)  (got: 0)
+PASS  T13 A sees only its own restaurant row  (got: 1)
+PASS  T15 runtime role cannot create a restaurant (no INSERT grant)  (got: 1)
+PASS  T16a operator-created restaurant C is visible to C with its first staff member  (got: 1)
+PASS  T16b restaurant A still sees none of C  (got: 0)
+INFO  T14 ms per query, app_user, 200k rows / 51 tenants:
+NOTICE:  EXPLICIT-WHERE 1.555
+NOTICE:  RLS-ONLY 1.775
+INFO  T14 plan with RLS:
+Index Scan using products_restaurant_id_name_key on products  (cost=0.43..8.45 rows=1 width=37)
+  Index Cond: ((restaurant_id = (NULLIF(current_setting('app.restaurant_id'::text, true), ''::text))::uuid) AND (name = 'p5'::text))
+
+RESULT: 24 passed, 0 failed

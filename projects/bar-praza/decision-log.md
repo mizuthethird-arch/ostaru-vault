@@ -2,6 +2,32 @@
 
 > Add each decision as a new entry at the top (workflow template E). Mark whether it is an **executive decision** (CEO) or an **agent recommendation**.
 
+## 2026-10-22 — Owner bypass: all blockers cleared; Cycle 1 starts
+- Type: executive decision
+- Decided by: CEO/Owner ("[BYPASS all blocking] right now i OWNER approve all", chat 2026-10-22)
+- Decision, applied by the CTO:
+  1. **Cycle 1 is ready and starts now.** Open checklist items become tracked items, not blockers.
+  2. **G1 passed** for spec v0.2. Working answers from the spec are approved: Q4 a pickup order is one with a pickup time, and Mesa and Barra are never limited; Q5 F9 stays in Release 1 (reduced); Q6 no operator UI, one restaurant per user. **Q9** (Recogido vs Cobrado) must be answered before F3; **Q11** (metric targets) before M1.
+  3. **JUPITER is the interim G3 approver** (Red Team Lead vacant). The idea brief is approved (status SIGNED).
+  4. **Frontend work reviewer:** JANUS (module structure), SOLON (design line, G2), MINOS (tests); the Owner gives the final approval.
+  5. **CTO decisions on JANUS's questions:** D1 option (1), the device pairing backend (F1-05) is pulled into F1-a, about +2.5 days [E]; D2 option (a), pick your name from the restaurant's list, then the PIN, with attempt limits per person and per device; first Encargado gets a one-time temporary PIN from the operator command and must change it at first sign-in; F1-02 uses the operator command instead of an API route (JUPITER reviews at G3); [ADR-004](03-definition/adr/ADR-004-data-access.md) accepted with **Kysely** (fallback Drizzle if the owner's one-line `set_config` check fails).
+- Not bypassed: per-feature gates G3 to G7 still apply when a feature is built; the Owner may waive one only by a logged risk acceptance against a CISO or QA Lead veto. Items that were estimates stay labelled estimates.
+- Revisit on: end of Cycle 1.
+
+## 2026-10-21 — Rules 8, 9 and 10 recorded; concise answers; no running of code by agents
+- Type: executive decision
+- Decided by: CEO (Project instructions; chat 2026-10-21)
+- Decision: agents write in their own area of the vault (Rule 8); no agent runs or tests code, the owner does, and software is compared by online research (Rule 9); chat answers are concise unless a complete report is requested (Rule 10). Recorded in AGENT-RULES v1.4.0, section 11. Effects here: JANUS's ADR-004 Part B is settled by research, and all agent-run test results are "agent-run, owner to re-run".
+- Revisit on: CEO request.
+
+## 2026-10-21 — Stack v2 approved; hosting Hostinger (later)
+- Type: executive decision
+- Decided by: CEO (chat, 2026-10-21: "ok we will use postgres... I approve")
+- Consulted: CTO (advised against SQLite)
+- Decision: React, TypeScript, Tailwind, Node.js, Express, PostgreSQL, Docker, Docker Compose, GitHub Actions, npm workspaces. Full list and rules in [ADR-006](03-definition/adr/ADR-006-technology-stack-v2.md), which supersedes [ADR-002](03-definition/adr/ADR-002-technology-stack.md). ADR-003 (row-level security), ADR-004, ADR-005 unchanged. Hosting is Hostinger, much later; until then only local Docker Compose. PROMETHEUS researches the Hostinger product online before any decision.
+- Why: familiar tools for the CEO; PostgreSQL keeps tenant isolation enforced by the database (K-1).
+- Revisit on: hosting decision (after Release 1).
+
 ## 2026-10-21 — CTO decisions on Q8: console target, device registration, photo storage, P-01 timing
 - Type: CTO decision (technical; the CEO can overrule)
 - Decided by: CTO (ATHENA)

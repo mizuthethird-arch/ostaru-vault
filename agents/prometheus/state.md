@@ -20,4 +20,4 @@ Everything needed to recreate PROMETHEUS on any platform (Claude, another AI ser
 8. Applicable design standards: [standards/README](../../standards/README.md) (none approved yet)
 
 ## Current working notes
-- None yet. Add only facts from approved work, with source and date.
+- 2026-10-22: P-01/P-02 spec v2 updated for ADR-006 (Express, npm workspaces, Tailwind, GHCR). Proposed, not run (Rule 9). Source: [platform spec](../../projects/bar-praza/03-definition/platform-p01-p02.md). Add further facts only from approved work.

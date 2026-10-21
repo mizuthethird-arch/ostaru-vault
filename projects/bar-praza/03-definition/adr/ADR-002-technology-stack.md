@@ -1,6 +1,6 @@
 # ADR-002: Technology stack
 - Date: 2026-10-21
-- Status: **Accepted** (CEO, 2026-10-21; see the [decision log](../../decision-log.md)). File storage was added later in [ADR-005](ADR-005-file-storage.md).
+- Status: **SUPERSEDED by [ADR-006](ADR-006-technology-stack-v2.md)** on 2026-10-21. The CEO accepted this ADR, then chose Express, Tailwind, npm and Docker-based CI instead of NestJS and pnpm (still PostgreSQL). Kept as history; do not follow it.
 - Owner: CTO
 
 ## Context

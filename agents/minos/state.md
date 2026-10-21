@@ -20,4 +20,6 @@ Everything needed to recreate MINOS on any platform (Claude, another AI service,
 8. Applicable design standards: [standards/README](../../standards/README.md) (none approved yet)
 
 ## Current working notes
-- None yet. Add only facts from approved work, with source and date.
+- 2026-10-22: test strategy v0.2 ([file](../../projects/bar-praza/03-definition/test-strategy.md), not approved) follows ADR-006 and Rule 9: agents write tests, the owner runs them and reports; the owner's CI run is the independent check; nothing is VERIFIED until the owner reports.
+- Learning: an agent-run result (for example ADR-004's "21 passed") is not verified; label it agent-run, owner to re-run.
+- 2026-10-21: drafted the first test strategy and handoffs to EUNOMIA and JUPITER (Rule 7); both are now superseded or partly superseded.

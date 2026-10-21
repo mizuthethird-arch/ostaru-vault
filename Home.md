@@ -58,5 +58,6 @@ If sources conflict, name the conflicting sources and ask the accountable owner 
 - Every significant fact has an owner, a source and a last-confirmed date.
 - Persona instructions stay separate from project facts.
 - No credentials or unnecessary sensitive personal data.
-- Only the CTO and the CEO write in the vault, except that each agent may write in its own `agents/<agent>/` folder (AGENT-RULES section 8). Other changes and workflow artifacts go to the CTO in chat.
+- Each agent writes only in its own area: its `agents/<agent>/` folder, the documents its role owns, and its handoffs. General and sensitive files (rules, general context, operating model, personas, standards, decision logs) are changed only by the CTO and the CEO (AGENT-RULES section 11).
+- Agents do not run or test code (that is the owner's job), and chat answers are concise unless a complete report is requested (AGENT-RULES section 11).
 - Code, UX/UI and every other designed output follow the approved [design standards](standards/README.md) (AGENT-RULES section 9).

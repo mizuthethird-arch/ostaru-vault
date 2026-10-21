@@ -2,7 +2,7 @@
 title: Agent Operating Rules
 owner: CTO
 status: PUBLISHED
-version: 1.3.0
+version: 1.6.0
 effective: 2026-10-21
 published_by: CTO (ATHENA)
 source: RULES.txt, supplied by the Sponsor/Owner
@@ -42,6 +42,8 @@ Do not create, edit, move, rename, or delete codebase files unless the user has 
 Before requesting approval to change the codebase, prepare a reviewable proposal in chat. State the files or areas that would change and show the proposed code or a clear diff. Wait for approval before making those changes.
 
 Without approval, continue with code and implementation guidance in chat only.
+
+**Folder structure (Sponsor/Owner, 2026-10-22).** Every engineer (any agent delivering code, configuration or scripts) shows the **folder structure** before the code, whenever it is needed: when the work creates or moves a file or folder, or touches more than one file. Show a tree from the repository root, mark each entry `+` new or `~` changed, and put the full path above every code block. A change to one existing file needs only that path. This follows Rule 4: list only the files the work needs.
 
 ## 3. Files, tools, browsers, and external services
 
@@ -154,7 +156,7 @@ agents/<agent-name>/
 └── skills/               local skills, one file per skill (SKILL.md format)
 ```
 
-**Permission to write.** As an exception to the vault write limits in [general-context](general-context.md) (decision D-008), an agent may create and update **its own internal folder only**, and only when one of these triggers applies:
+**Permission to write.** As an exception to the vault write limits in [general-context](general-context.md) (decision D-008, relaxed by section 11), an agent may create and update **its own internal folder only**, and only when one of these triggers applies:
 1. **A change is committed and approved.** When the Sponsor/Owner approves a piece of work and it is committed (to the vault or the repository), the agent may record what it learned from that work as a local skill and update `state.md`.
 2. **The Sponsor gives behavior feedback.** When the Sponsor/Owner says that a way of working was good or bad, the agent records it in `behavior/positive.md` or `behavior/negative.md`. Agents do not add behavior entries on their own judgment.
 
@@ -201,6 +203,41 @@ Once a **design line** is approved, every agent's output must follow it. This ap
 4. Handoff prompts are filed in the project's `handoffs/` folder as `YYYY-MM-DD-<FROM>-to-<TO>.md`, and are also delivered in chat.
 5. Work an agent already produced outside its role is kept, labeled as a **draft handed to the owning agent**, and that agent decides whether to accept, rewrite or discard it.
 
+## 11. Vault writing, no execution, concise answers
+
+*Added by the Sponsor/Owner on 2026-10-21 (Project instructions, Rules 8, 9 and 10).*
+
+**11.1 Vault writing (Rule 8, Extra Rule 2).** Agents may now modify the vault, within their own area:
+- their own `agents/<agent-name>/` folder (section 8);
+- the documents their role owns in a project folder, as named by the [startup workflow](operating-model/startup-workflow.md) (for example the Product Manager writes the spec, stories, backlog and cycle plans; the QA Lead the test strategy);
+- the handoffs they author (section 10).
+
+**Only the Sponsor/Owner and the CTO** change general or sensitive files that affect every agent: `AGENT-RULES.md`, `general-context.md`, `_START-HERE.md`, `Home.md`, `operating-model/`, `agent-personas/`, `standards/`, the project decision logs, and `.obsidian/`. Other agents propose those changes in chat. When an agent changes a file it does not own, it stops and hands the change to the owner (section 10). This replaces decision D-008, which allowed only the CTO and the CEO to write.
+
+**11.2 No running or testing (Rule 9).** Agents never run programs, commands or tests to build, run or test features. Running and testing belongs to the Sponsor/Owner. The only commands an agent may use are those that read, write or update the vault. Agents do not install packages, start containers or call APIs to test them. Software comparisons are done by online research, comparing specifications, documentation and maintenance. Work stays `IMPLEMENTED—NOT VERIFIED` until the owner runs the tests and reports the result. Sections 2 and 3 still apply.
+
+**11.3 Concise answers (Rule 10).** Chat answers are concise by default, especially from the Head of Product and the Product Manager.
+1. **Daily work:** answer first, in at most about 200 words. Say what was done or decided, what the Sponsor must decide (numbered, with a recommended option), and the next step. No recap of context, no restating of earlier answers, no long tables or lists unless the Sponsor asks.
+2. **Complete report:** only when the Sponsor asks for one ("complete report", "full report", "informe completo"). Then the full structure is allowed.
+3. **Documents are not chat answers.** A spec, story set or plan filed in the vault stays as complete as its template requires. The chat message that delivers it is a short summary with the file path.
+4. **Handoff prompts** stay short: point to vault files instead of copying their content.
+5. Detail the Sponsor did not ask for is offered in one line ("detail available on request"), not added.
+
+## 12. Start-working roadmap
+
+*Added by the Sponsor/Owner on 2026-10-22 (Rule 11).*
+
+When the Sponsor/Owner asks to **start working** (on a feature, a cycle or a project), the answer opens with a **complete roadmap for the next feature**: which agent works, in what order, and what each one hands to the next. One line per step, in this form:
+
+`Agent 1 (what it delivers) → Agent 2 (what it delivers) → Agent 3 (...)`
+
+1. **Order and dependencies.** Show the whole chain to "done" for the next feature, including gates (G1–G8), the owner's own steps (for example running tests or committing code), and the steps that run in parallel.
+2. **Each step names:** the agent, the work, the file or output it produces, and the gate it satisfies.
+3. **Prompts.** Every agent whose turn comes up gets a ready-to-use prompt (section 10, item 3), filed in `handoffs/`. The roadmap lists the first prompts to send now; later prompts follow when the previous step finishes.
+4. **Who writes it.** The agent the Sponsor asked. The Product Manager owns the roadmap file (`04-planning/roadmap.md`) and keeps it current; the CTO adds the technical steps. Section 10, item 1 still applies: no agent writes another role's work.
+5. **Concise.** Section 11.3 applies: the roadmap is a short chain, not a report. Detail lives in the linked files.
+6. **After each step** the agent that finishes it tells the Sponsor who is next and gives that agent's prompt.
+
 ## Extra Rules
 
 1. If obsidian vault is not available, GitHub repository will be available, so every agent that documents itself could request a push for this GitHub if Obsidian vault doesn't exists. Always should push in a way we can create a obsidian vault from that repository
@@ -210,6 +247,9 @@ Once a **design line** is approved, every agent's output must follow it. This ap
 
 | Version | Date | Note |
 |---|---|---|
+| 1.6.0 | 2026-10-22 | Section 2: engineers always show the folder structure when needed. Published by the CTO. |
+| 1.5.0 | 2026-10-22 | Section 12: when the Sponsor asks to start working, the answer opens with a roadmap of agents in order (Rule 11). Published by the CTO. |
+| 1.4.0 | 2026-10-21 | Section 11: vault writing within each agent's own area (Rule 8, replaces D-008), no running or testing by agents (Rule 9), concise chat answers (Rule 10). Published by the CTO. |
 | 1.3.0 | 2026-10-21 | Section 10: role boundaries and handoff prompts (the Sponsor's Rules 6 and 7). Published by the CTO. |
 | 1.2.0 | 2026-10-21 | Section 4: standing read authorization for all agents (vault, Project knowledge mirror, GitHub), and how to consult the vault. Sponsor/Owner instruction; published by the CTO. |
 | 1.1.0 | 2026-10-21 | Added section 8 (agent behavior, local skills and state, with scoped write permission to each agent's own folder) and section 9 (design standards), at the Sponsor/Owner's instruction. Published by the CTO. |

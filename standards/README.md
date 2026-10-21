@@ -35,4 +35,4 @@ Only `APPROVED` standards are binding. `DRAFT` standards are proposals.
 | code | [Focused changes, always tested](code/change-discipline-and-testing.md) | 1.0.0 | APPROVED | CTO, QA Lead | CEO, 2026-10-21 (Rule 4) |
 | ux-ui (project: Bar Praza) | [Bar Praza UX/UI design line](../projects/bar-praza/standards/ux-ui-design-line.md) | 1.0.0 | APPROVED | Head of Product | CEO, 2026-10-21 |
 
-Where no approved standard covers an output, agents say so and propose one rather than inventing a style silently. Language- and framework-specific code style standards follow once ADR-002 (stack) is approved.
+Where no approved standard covers an output, agents say so and propose one rather than inventing a style silently. Language- and framework-specific code style standards follow now that the stack is approved ([ADR-006](../projects/bar-praza/03-definition/adr/ADR-006-technology-stack-v2.md)); the CTO drafts them next.

@@ -1,10 +1,10 @@
 # Stories F8 — Personal y ajustes
 
-> Delivered by PERICLES (Product Manager) in chat on 2026-10-21 as planning package v0.2, and filed by the CTO (ATHENA) on 2026-10-21 without content changes. **Since it was drafted, the CEO approved S1–S7, the rule 19 deviation, ADR-002 and ADR-003, and settled Q2 (chat only, the CEO commits). The CTO decided Q8.** See the [decision log](../../decision-log.md). Labels: **[V]** verified, **[E]** estimate, **[A]** assumption.
+> Package v0.2 by PERICLES (Product Manager), filed 2026-10-21. **v0.3 on 2026-10-22** after the Owner bypass (all blockers cleared, Cycle 1 starts), ATHENA's decisions handoff and EUNOMIA's hardening criteria H-1 to H-14. See the [decision log](../../decision-log.md). Labels: **[V]** verified, **[E]** estimate, **[A]** assumption.
 
 > Common acceptance criteria C1–C7 and the gate list are in the [stories README](README.md) and apply to every story here.
 
-F8 is priority 5, so Cycle 2 [E].
+F8 is priority 5, so Cycle 2 [E]. (2026-10-22) F8 needs the G3 threat model for every story that touches sign-in, PINs, roles or devices. F8-04 no longer waits for F1-b: the device backend is in F1-a.
 
 **F8-01 · Team list, add and deactivate** · `identity` · size M · G1 G2 G3 G4 G5 G6 G7
 *As the Encargado, I want to see and manage my team, so only current staff can sign in.*
@@ -29,7 +29,7 @@ F8 is priority 5, so Cycle 2 [E].
 - **Design line:** r10, r17.
 - **Out of scope:** self-service PIN reset.
 
-**F8-03 · Permission matrix and role change** · `identity` · size S · G1 G2 G4 G5 G6 G7
+**F8-03 · Permission matrix and role change** · `identity` · size S · G1 G2 G3 G4 G5 G6 G7
 *As the Encargado, I want to see what each role can do and change someone's role.*
 - **AC1** The matrix matches r17 exactly.
 - **AC2** Given a role change, then it applies on the person's next action and is logged.
@@ -43,12 +43,12 @@ F8 is priority 5, so Cycle 2 [E].
 **F8-04 · Devices list and disconnect** · `identity` · size S · G1 G2 G3 G4 G5 G6 G7
 *As the Encargado, I want to see devices and disconnect one, so a lost phone is cut off.*
 - **AC1** The list shows each device with a CONECTADO (green) pill or its disconnected state, and last seen.
-- **AC2** Given the Encargado disconnects a device, then it can no longer use its session or sign in.
+- **AC2** Given the Encargado disconnects a device, then its device token is revoked at once, its sessions end, and it can no longer sign in [V: CTO Q8, item 2, point 5] (2026-10-22).
 - **Isolation:** yes.
 - **Role:** Encargado only.
-- **Tests:** list, disconnect effect, role denial, isolation.
+- **Tests:** list, disconnect effect (token revoked, sessions ended), role denial, isolation.
 - **Design line:** r7, r17.
-- **Out of scope:** remote wipe. Depends on F1-05.
+- **Out of scope:** remote wipe. Depends on F1-05 (in F1-a).
 
 **F8-05 · Restaurant data** · `tenancy` · size S · G1 G2 G4 G5 G6 G7
 *As the Encargado, I want to maintain the restaurant's name, address and phone.*

@@ -173,3 +173,8 @@ Stories refine these (section 2).
 - The F2-04 visibility gate is added.
 - M1/M2 milestones are added.
 - Build order follows SOLON's priority list.
+
+
+## Update 2026-10-22 (PERICLES, v0.3 status)
+- **G1 passed** under the Owner bypass (decision log 2026-10-22). Q4, Q5 and Q6 have working answers approved; Q9 is due before F3 and Q11 before M1.
+- F1-05 (device pairing) is part of F1-a. Sign-in is name-then-PIN, with change-PIN-at-first-sign-in. Restaurant creation is an operator command. Details: [stories F1](../04-planning/stories/f1-foundation.md).

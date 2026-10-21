@@ -1,7 +1,7 @@
 # Idea brief — Bar Praza (multi-restaurant ordering SaaS)
 - Date: 2026-10-21
 - Author: CEO
-- Status: **DRAFT, prepared by the CTO (ATHENA) from the CEO's answers of 2026-10-21 and the approved design.** Phase 0 belongs to the CEO, so it is decided only when the CEO signs it. Anything not stated by the CEO or shown in the design is marked **[assumption]**.
+- Status: **SIGNED** by the CEO/Owner on 2026-10-22 (Owner bypass, see the [decision log](../decision-log.md)). Items marked **[assumption]** remain assumptions until discovery confirms them.
 
 ## Problem
 Small bars and restaurants such as Bar Praza take takeaway and pickup orders informally today. The design's "App vs WhatsApp" report suggests WhatsApp is the current channel **[assumption: to confirm with Bar Praza]**. That makes it hard to:

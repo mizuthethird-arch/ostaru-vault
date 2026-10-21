@@ -1,6 +1,6 @@
 # Stories F2 — Carta y productos
 
-> Delivered by PERICLES (Product Manager) in chat on 2026-10-21 as planning package v0.2, and filed by the CTO (ATHENA) on 2026-10-21 without content changes. **Since it was drafted, the CEO approved S1–S7, the rule 19 deviation, ADR-002 and ADR-003, and settled Q2 (chat only, the CEO commits). The CTO decided Q8.** See the [decision log](../../decision-log.md). Labels: **[V]** verified, **[E]** estimate, **[A]** assumption.
+> Package v0.2 by PERICLES (Product Manager), filed 2026-10-21. **v0.3 on 2026-10-22** after the Owner bypass (all blockers cleared, Cycle 1 starts), ATHENA's decisions handoff and EUNOMIA's hardening criteria H-1 to H-14. See the [decision log](../../decision-log.md). Labels: **[V]** verified, **[E]** estimate, **[A]** assumption.
 
 > Common acceptance criteria C1–C7 and the gate list are in the [stories README](README.md) and apply to every story here.
 
@@ -56,13 +56,17 @@ F2-01 to F2-03 are the Cycle 1 stretch slice. The others come later.
 
 **F2-05 · Product photo** · `catalog` · size M · G1 G2 G3 G4 G5 G6 G7
 *As the Encargado, I want to attach a photo to a product, so the menu looks like the design.*
-- **AC1** Given an accepted image, then it attaches to the product.
-- **AC2** Given a rejected file (wrong type or too large), then an error shows. The limits are set in G3 [A].
+
+(2026-10-22) Storage is decided: S3-compatible object storage behind a `FileStorage` interface, MinIO in Docker Compose for development, keys prefixed by the restaurant's ID, a private bucket with signed URLs [V: CTO Q8, item 3; ADR-005].
+- **AC1** Given an accepted image, then it attaches to the product and is stored under that restaurant's prefix.
+- **AC2** Given a rejected file (wrong type or too large), then an error shows. Uploads are checked by content, not by file name. The limits are set in G3 [A].
+- **AC3** Given an accepted upload, then the stored image is re-encoded with its metadata removed, and is shown through a signed URL, never a public link.
+- **H-7** Given the upload endpoint, then it follows the hardening list (body limit above the default for images, content check, no path taken from the client). Numbers [A] until JUPITER confirms.
 - **Isolation:** B can't read A's photos.
 - **Role:** Encargado only.
-- **Tests:** accept, reject, isolation.
+- **Tests:** accept, reject by content, re-encode, signed URL, isolation.
 - **Design line:** r3.
-- **Out of scope:** image editing. Storage is not covered by ADR-002 (Q8), which is a dependency.
+- **Out of scope:** image editing. Not needed in Cycle 1 or Cycle 2's first stories: PROMETHEUS adds MinIO to Compose when F2-05 is planned.
 
 **F2-06 · Availability state** · `catalog` · size S · G1 G2 G4 G5 G6 G7
 *As staff, I want to mark a product AGOTADO, so nobody orders what we can't make.*

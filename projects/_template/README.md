@@ -2,7 +2,7 @@
 
 > **Project template.** Copy this whole `_template` folder to `projects/<project-name>/` to start a project, then fill in [00-charter/startup-workflow.md](00-charter/startup-workflow.md) and [status.md](status.md). The structure follows the [startup workflow](../../operating-model/startup-workflow.md), section 8.
 >
-> Only the CTO and CEO write in the vault (decision D-008). Other agents deliver these documents in chat, and the CTO or CEO files them here.
+> Writing: each agent writes the documents its role owns; general files go through the CTO and CEO (AGENT-RULES section 11, decision D-024).
 
 | Field | Value |
 |---|---|

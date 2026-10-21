@@ -6,7 +6,7 @@ This project follows the company [startup workflow](../../../operating-model/sta
 |---|---|
 | Project | Bar Praza (multi-restaurant ordering SaaS) |
 | Started | 2026-10-21 |
-| Current phase | 0 Idea intake; **Release 1 (dashboard) definition drafted** on CEO direction; waiting for the CEO to approve ADR-002 and ADR-003 |
+| Current phase | 0 Idea intake; **Release 1 (dashboard) definition drafted** on CEO direction; ADR-003 and the stack ([ADR-006](../03-definition/adr/ADR-006-technology-stack-v2.md)) approved by the CEO on 2026-10-21 |
 | Version of the company workflow followed | 1.0 |
 
 ## Gate history
