@@ -2,7 +2,7 @@
 title: General Context
 owner: CTO (publishes changes; see AGENT-RULES section 4)
 status: PUBLISHED
-version: 1.18.0
+version: 1.19.0
 effective: 2026-10-21
 contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager), and the CEO
 ---
@@ -18,12 +18,12 @@ contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager),
 |---|---|---|---|---|
 | Company | Ostaru Company, operated through a set of AI agents working under shared rules. | Sponsor/Owner | Sponsor/Owner, chat | 2026-10-20 |
 | Vault name | Ostaru-company | Sponsor/Owner | Project instructions | 2026-10-20 |
-| Product summary | **Not defined yet** (TBD) | CEO | Sponsor/Owner, chat | 2026-10-20 |
+| Product summary | A **multi-restaurant ordering and management SaaS**: customer ordering app, admin panel, live console, staff mobile ordering and online payments. First client: **Bar Praza**, a Galician tapas bar. Product name TBD. See [projects/bar-praza](projects/bar-praza/README.md). | CEO | CEO, chat | 2026-10-21 |
 | Mission and positioning | TBD | CEO | none yet | not confirmed |
 
 ## 2. Business model, users, terminology
 - Business model: TBD
-- User groups / customers: TBD
+- User groups / customers: restaurants and bars (operators: owner or manager, floor and bar staff, kitchen) and their customers. Bar Praza is the first. Persona wording about menus, orders, restaurants and venues now fits this domain (CEO, 2026-10-21).
 - Key terminology (glossary): TBD
 
 ## 3. Organizational roles and decision owners
@@ -71,8 +71,11 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | D-013 | Approved design standards (code, UX/UI and any other design line) are binding on every agent output. They live in `standards/` or a project's `standards/` folder. | CEO | 2026-10-21 | Executive decision; AGENT-RULES section 9. No standard is approved yet. |
 | D-014 | The erroneous product name that appeared in agent source documents was removed from every vault file, including the source documents. | CEO | 2026-10-21 | Executive decision. |
 | D-015 | All agents may read and search the vault at any time, without per-task permission: the vault, its mirror in the Ostaru Company Claude Project knowledge, and GitHub. Read-only; writing rules unchanged. | CEO | 2026-10-21 | Executive decision; AGENT-RULES v1.2.0, section 4. The vault is the source of truth; the Project mirror is refreshed by the CTO. |
+| D-016 | Start the Bar Praza client project and build it as a multi-restaurant SaaS Ostaru can offer to other restaurants. The MVP covers the customer ordering app, admin panel, live console with staff mobile ordering, and online payments. | CEO | 2026-10-21 | Executive decision. Details in [projects/bar-praza/decision-log.md](projects/bar-praza/decision-log.md). |
+| D-017 | "Bar Praza — Full Design Vision" is the approved UX/UI design line for Bar Praza (the first approved standard). | CEO | 2026-10-21 | Executive decision; [standard](projects/bar-praza/standards/ux-ui-design-line.md). |
+| D-018 | VYRO PrivateCloud is paused. | CEO | 2026-10-21 | Executive decision. Its folder is kept as is. |
 
-**Current priorities:** not defined yet (CEO, 2026-10-20).
+**Current priorities (CEO, 2026-10-21):** 1. **Bar Praza** (multi-restaurant SaaS, Phase 0). VYRO PrivateCloud is **paused**.
 
 ## 7. Projects and authoritative records
 - Projects: none registered yet. See [projects/README](projects/README.md); new projects start from [the template](projects/_template/README.md).
@@ -85,7 +88,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 - Secret management system: TBD (never the vault).
 
 ## 8. Open items (awaiting the CEO)
-1. Product or business definition, and the top priority: **not defined yet**.
+1. Product and priority are defined (D-016, D-018). Still open: the product name, SaaS pricing, the Bar Praza client terms, and the payment provider.
 2. **Activate the Wave 1 gaps** before an MVP: Product Designer (#25) and Frontend Lead (#3), plus at least one frontend engineer (#4).
 3. **THEMIS** is not a charter role: add it as a 31st role (and under whom), or merge its scope ([agent roster](operating-model/agent-roster.md), section 2).
 4. **IRIS** fills the content and social part of Growth Marketer (#27). Confirm, and decide who owns SEO and CRM (NIKE holds them meanwhile).
@@ -99,6 +102,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 
 | Version | Date | Note |
 |---|---|---|
+| 1.19.0 | 2026-10-21 | Product defined (multi-restaurant ordering SaaS; Bar Praza first); priorities set; D-016 to D-018. |
 | 1.18.0 | 2026-10-21 | D-015: standing read access for all agents; vault mirrored into the Claude Project knowledge. |
 | 1.17.0 | 2026-10-21 | Recorded D-012 (agent internal folders), D-013 (design standards) and D-014 (erroneous product name removed everywhere). Rules now v1.1.0. |
 | 1.16.0 | 2026-10-21 | Added the operating model (D-009), the rebuilt project template (D-010) and interim cover for engineering vacancies (D-011). Replaced the roles table with a summary linking to the agent roster; the old table omitted ARTEMIS and had stale reporting lines. Updated constraints, records and open items. |

@@ -31,6 +31,6 @@ Only `APPROVED` standards are binding. `DRAFT` standards are proposals.
 
 | Area | Standard | Version | Status | Owner | Approved |
 |---|---|---|---|---|---|
-| (none yet) | | | | | |
+| ux-ui (project: Bar Praza) | [Bar Praza UX/UI design line](../projects/bar-praza/standards/ux-ui-design-line.md) | 1.0.0 | APPROVED | Head of Product | CEO, 2026-10-21 |
 
-**No design line is approved yet.** Until one is, agents state that no approved standard applies, and they propose one rather than inventing a style silently.
+Where no approved standard covers an output, agents say so and propose one rather than inventing a style silently. Company-wide code and architecture standards are not approved yet.

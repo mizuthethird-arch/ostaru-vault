@@ -1,6 +1,6 @@
 # VYRO PrivateCloud
 
-> A private, local-first cloud built on Docker: one or more machines on the user's own network, with one console, a curated app catalog, private networking, single sign-on, HTTPS and encrypted backups. **Phase 0: Idea intake.** The [idea brief](01-idea/idea-brief.md) is a draft waiting for the CEO.
+> A private, local-first cloud built on Docker: one or more machines on the user's own network, with one console, a curated app catalog, private networking, single sign-on, HTTPS and encrypted backups. **PAUSED by the CEO on 2026-10-21 (D-018)** in Phase 0: Idea intake. The [idea brief](01-idea/idea-brief.md) is a draft waiting for the CEO.
 >
 > Only the CTO and CEO write in the vault (decision D-008). Other agents deliver their documents in chat, and the CTO or CEO files them here.
 

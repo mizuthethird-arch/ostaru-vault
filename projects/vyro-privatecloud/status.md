@@ -1,5 +1,5 @@
 # Status — VYRO PrivateCloud
-- Current phase: 0 Idea intake
+- Current phase: 0 Idea intake. **PAUSED** (CEO, 2026-10-21; D-018)
 - Current cycle: none yet
 - Last updated: 2026-10-21
 

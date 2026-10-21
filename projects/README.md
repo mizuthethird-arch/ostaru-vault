@@ -6,6 +6,7 @@ One folder per project: `projects/<project-name>/`. To start one, copy [_templat
 
 | Project | Purpose | Current phase | Owner | Last confirmed |
 |---|---|---|---|---|
-| [VYRO PrivateCloud](vyro-privatecloud/README.md) | Private local cloud network system with Docker | 0 Idea intake (brief drafted, waiting for the CEO) | CEO | 2026-10-21 |
+| [Bar Praza](bar-praza/README.md) | Multi-restaurant ordering SaaS; Bar Praza is the first client | 0 Idea intake (brief drafted, waiting for the CEO) | CEO | 2026-10-21 |
+| [VYRO PrivateCloud](vyro-privatecloud/README.md) | Private local cloud network system with Docker | **PAUSED** in Phase 0 (D-018) | CEO | 2026-10-21 |
 
 Keep project-specific details here. Propose company-wide durable facts for [general-context](../general-context.md) instead, and link to the project rather than duplicating detail. Only the CTO and CEO write here; other agents deliver their artifacts in chat.
