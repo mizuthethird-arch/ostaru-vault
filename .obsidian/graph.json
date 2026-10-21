@@ -5,18 +5,110 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:AGENT-RULES OR file:general-context OR file:Home",
+      "color": {
+        "a": 1,
+        "rgb": 16765286
+      }
+    },
+    {
+      "query": "path:operating-model",
+      "color": {
+        "a": 1,
+        "rgb": 12031222
+      }
+    },
+    {
+      "query": "path:agent-personas (file:JUPITER OR file:ARTEMIS OR file:ORPHEUS OR file:EUNOMIA OR file:ODYSSEUS OR file:THEMIS)",
+      "color": {
+        "a": 1,
+        "rgb": 16735631
+      }
+    },
+    {
+      "query": "path:agent-personas (file:ATHENA OR file:JANUS OR file:VULCAN OR file:PROMETHEUS OR file:SOPHIA OR file:MINOS)",
+      "color": {
+        "a": 1,
+        "rgb": 5032432
+      }
+    },
+    {
+      "query": "path:agent-personas (file:SOLON OR file:PERICLES)",
+      "color": {
+        "a": 1,
+        "rgb": 16755021
+      }
+    },
+    {
+      "query": "path:agent-personas (file:NIKE OR file:IRIS)",
+      "color": {
+        "a": 1,
+        "rgb": 16224224
+      }
+    },
+    {
+      "query": "path:agent-personas file:HESTIA",
+      "color": {
+        "a": 1,
+        "rgb": 6220500
+      }
+    },
+    {
+      "query": "path:agents/",
+      "color": {
+        "a": 1,
+        "rgb": 8037119
+      }
+    },
+    {
+      "query": "path:projects",
+      "color": {
+        "a": 1,
+        "rgb": 3073702
+      }
+    },
+    {
+      "query": "path:standards",
+      "color": {
+        "a": 1,
+        "rgb": 12842810
+      }
+    },
+    {
+      "query": "path:skills",
+      "color": {
+        "a": 1,
+        "rgb": 10325247
+      }
+    },
+    {
+      "query": "path:agents-team",
+      "color": {
+        "a": 1,
+        "rgb": 5991308
+      }
+    },
+    {
+      "query": "path:designs",
+      "color": {
+        "a": 1,
+        "rgb": 9413567
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "showArrow": true,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 1.35,
+  "lineSizeMultiplier": 0.7,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
+  "centerStrength": 0.45,
+  "repelStrength": 14,
+  "linkStrength": 0.9,
+  "linkDistance": 170,
   "scale": 0.6316046762907325,
   "close": true
 }

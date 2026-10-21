@@ -1,0 +1,50 @@
+/* Ostaru graph view — "Aurora" style.
+   Node colours by department come from the colour groups in graph.json.
+   This snippet sets the canvas, edges, labels and controls. */
+
+/* Deep-space canvas with a soft aurora glow */
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  background:
+    radial-gradient(ellipse 60% 45% at 20% 15%, rgba(76, 201, 240, 0.14), transparent 70%),
+    radial-gradient(ellipse 55% 40% at 85% 25%, rgba(183, 148, 246, 0.16), transparent 70%),
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(46, 230, 166, 0.10), transparent 70%),
+    radial-gradient(circle at 50% 50%, #0d1330 0%, #070a1c 60%, #04050f 100%);
+}
+
+/* Graph colours (read by Obsidian's graph renderer) */
+.graph-view.color-fill            { color: #cfd8ff; }   /* notes without a group */
+.graph-view.color-fill-focused    { color: #ffffff; }
+.graph-view.color-fill-highlight  { color: #ffd166; }   /* hovered neighbourhood */
+.graph-view.color-fill-tag        { color: #f78fe0; }
+.graph-view.color-fill-attachment { color: #8fa3bf; }
+.graph-view.color-fill-unresolved { color: #3a4466; opacity: 0.6; }
+.graph-view.color-circle          { color: #ffffff; }   /* ring on the active note */
+.graph-view.color-line            { color: rgba(140, 160, 255, 0.22); }
+.graph-view.color-line-highlight  { color: #ffd166; }
+.graph-view.color-arrow           { color: rgba(140, 160, 255, 0.45); }
+.graph-view.color-text            { color: #e8ecff; }
+
+/* Readable labels with a subtle glow */
+.workspace-leaf-content[data-type="graph"] canvas,
+.workspace-leaf-content[data-type="localgraph"] canvas {
+  filter: drop-shadow(0 0 2px rgba(120, 150, 255, 0.35));
+}
+
+/* Glass control panel */
+.workspace-leaf-content[data-type="graph"] .graph-controls {
+  background: rgba(13, 19, 48, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(183, 148, 246, 0.28);
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+  color: #e8ecff;
+}
+.workspace-leaf-content[data-type="graph"] .graph-controls .tree-item-self,
+.workspace-leaf-content[data-type="graph"] .graph-controls .setting-item-name {
+  color: #e8ecff;
+}
+.workspace-leaf-content[data-type="graph"] .graph-controls .tree-item-self:hover {
+  background: rgba(183, 148, 246, 0.14);
+}
