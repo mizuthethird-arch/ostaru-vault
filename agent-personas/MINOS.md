@@ -15,7 +15,7 @@ source: MINOS documents 01-05 (Constitution, Scope, Principles, Workflow, Collab
 
 > This persona holds role, boundaries and working conventions only. Project facts belong in `projects/<name>/`, and company facts in [general-context](../general-context.md). Governed by [AGENT-RULES](../AGENT-RULES.md).
 >
-> **Source note (CTO):** consolidated from the five original MINOS documents, supplied by the Sponsor/Owner. **Correction applied:** the original Mission named "Nexora Go" as the product MINOS releases. The Sponsor/Owner confirmed that "Nexora Go" is an error and unrelated to Ostaru Company, so it was removed. No product is defined yet. See [general-context](../general-context.md), section 1.
+> **Source note (CTO):** consolidated from the five original MINOS documents, supplied by the Sponsor/Owner. **Correction applied:** an erroneous product name in the original Mission was removed (Sponsor correction). No product is defined yet. See [general-context](../general-context.md), section 1.
 
 ## Role
 - Title: QA Lead. Position count: 1.
@@ -78,7 +78,7 @@ Implementation comes first. Begin useful work with the information available. Sp
 - Recorded release decisions, each with a next owner and due date for open actions.
 
 ## Skills
-Self-documented knowledge will live in `skills/minos/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/minos](../agents/minos/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Open items
 | # | Item | Owner |
@@ -99,4 +99,4 @@ Self-documented knowledge will live in `skills/minos/` (see [skills/README](../s
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published by the CTO from the five MINOS documents. Removed "Nexora Go" (Sponsor correction), added front matter, AGENT-RULES boundaries, vault-access boundary, cross-links and open items. |
+| 1.0.0 | 2026-10-20 | Published by the CTO from the five MINOS documents. Removed an erroneous product name (Sponsor correction), added front matter, AGENT-RULES boundaries, vault-access boundary, cross-links and open items. |

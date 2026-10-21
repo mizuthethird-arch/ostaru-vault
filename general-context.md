@@ -2,7 +2,7 @@
 title: General Context
 owner: CTO (publishes changes; see AGENT-RULES section 4)
 status: PUBLISHED
-version: 1.16.0
+version: 1.17.0
 effective: 2026-10-21
 contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager), and the CEO
 ---
@@ -20,8 +20,6 @@ contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager),
 | Vault name | Ostaru-company | Sponsor/Owner | Project instructions | 2026-10-20 |
 | Product summary | **Not defined yet** (TBD) | CEO | Sponsor/Owner, chat | 2026-10-20 |
 | Mission and positioning | TBD | CEO | none yet | not confirmed |
-
-> **Correction (Sponsor/Owner, Project instructions, 2026-10-20):** "Nexora Go" appeared in agent source documents by mistake. It is **unrelated** to Ostaru Company. Do not use it as a product, company or project name.
 
 ## 2. Business model, users, terminology
 - Business model: TBD
@@ -47,7 +45,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 - Anything outside the vault (codebase, repositories, tools, external services) still needs separate task-specific permission ([AGENT-RULES](AGENT-RULES.md), section 3).
 
 ## 5. Shared constraints
-- **Operating rules:** [AGENT-RULES](AGENT-RULES.md) v1.0.1. Code is delivered in chat, there is no file or tool access without task-specific permission, and vault updates are proposed to the CTO.
+- **Operating rules:** [AGENT-RULES](AGENT-RULES.md) v1.1.0. Code is delivered in chat, there is no file or tool access without task-specific permission, and vault updates are proposed to the CTO.
 - **Operating model:** the CEO's [team charter](operating-model/team-charter.md) and [startup workflow](operating-model/startup-workflow.md), both v1.0. They set roles, decision rights, phases 0–8, gates G1–G8 and handoff artifacts. They grant decision rights, **not access**; how they fit with the rules is in [operating-model/README](operating-model/README.md).
 - **Founder rule:** while the CEO is the only human, every gate also needs CEO approval, and no agent approves its own work (charter sections 1 and 10).
 - **Implementation-first:** work starts with the information available. Specialist review is code-review feedback, not a prerequisite.
@@ -65,10 +63,13 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | D-005 | Use **standard relative Markdown links** (`[text](path.md)`), not Obsidian `[[wiki links]]`. | CTO, on PERICLES's proposal | 2026-10-20 | Section 4 of the rules asks for "ordinary links". It also keeps the GitHub mirror usable. |
 | D-006 | `Home.md` is the vault entry point. `README.md` describes structure and the GitHub fallback. | CTO, on PERICLES's proposal | 2026-10-20 | |
 | D-007 | New projects start from `projects/_template/`, and new skills from `skills/_template/SKILL.md`. | CTO, on PERICLES's proposal | 2026-10-20 | The project template was rebuilt under D-010. |
-| D-008 | Vault write access is limited to the CTO and the CEO. | CEO | 2026-10-20 | Executive decision. Other agents deliver workflow artifacts in chat, and the CTO or CEO files them. |
+| D-008 | Vault write access is limited to the CTO and the CEO. | CEO | 2026-10-20 | Executive decision. Other agents deliver workflow artifacts in chat, and the CTO or CEO files them. **Exception (D-012):** each agent may write in its own `agents/<agent>/` folder. |
 | D-009 | The CEO's startup workflow and team charter are the company operating model, published in `operating-model/`. | CEO (instruction to update the vault) | 2026-10-21 | Executive decision. Only the CEO changes them. |
 | D-010 | `projects/_template/` follows the workflow's folder structure (section 8), with templates A–F. The old template files (`requirements.md`, `architecture.md`, `decisions.md`, `risks-dependencies.md`) are superseded. | CTO | 2026-10-21 | The superseded files are stubs waiting for the CEO to delete them; the CTO cannot delete files. |
 | D-011 | Interim cover for vacant engineering roles: the CTO covers the Frontend Lead; the Backend Lead covers Payments; the Platform Lead covers the SRE; the AI Lead covers ML/LLM and Data; the QA Lead covers QA Automation. | CTO | 2026-10-21 | Within the CTO's department; reversible. Cover for non-engineering vacancies is a recommendation for the CEO ([agent roster](operating-model/agent-roster.md), section 4). |
+| D-012 | Every agent has an internal folder `agents/<agent>/` (behavior, local skills, state) that it may write itself, after committed and approved changes or on Sponsor behavior feedback. Existing skills moved there. | CEO | 2026-10-21 | Executive decision; AGENT-RULES section 8. |
+| D-013 | Approved design standards (code, UX/UI and any other design line) are binding on every agent output. They live in `standards/` or a project's `standards/` folder. | CEO | 2026-10-21 | Executive decision; AGENT-RULES section 9. No standard is approved yet. |
+| D-014 | The erroneous product name that appeared in agent source documents was removed from every vault file, including the source documents. | CEO | 2026-10-21 | Executive decision. |
 
 **Current priorities:** not defined yet (CEO, 2026-10-20).
 
@@ -77,7 +78,8 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 - Rules: [AGENT-RULES](AGENT-RULES.md)
 - Operating model: [team charter](operating-model/team-charter.md), [startup workflow](operating-model/startup-workflow.md), [agent roster](operating-model/agent-roster.md)
 - Personas: one per agent in `agent-personas/`, listed in the [agent roster](operating-model/agent-roster.md)
-- Skills: [skills/README](skills/README.md)
+- Agent internal folders (behavior, skills, state): [agents/README](agents/README.md); skill conventions: [skills/README](skills/README.md)
+- Design standards: [standards/README](standards/README.md) (none approved yet)
 - Roadmap: not created yet (owned by the CEO, with the Head of Product)
 - Secret management system: TBD (never the vault).
 
@@ -96,6 +98,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 
 | Version | Date | Note |
 |---|---|---|
+| 1.17.0 | 2026-10-21 | Recorded D-012 (agent internal folders), D-013 (design standards) and D-014 (erroneous product name removed everywhere). Rules now v1.1.0. |
 | 1.16.0 | 2026-10-21 | Added the operating model (D-009), the rebuilt project template (D-010) and interim cover for engineering vacancies (D-011). Replaced the roles table with a summary linking to the agent roster; the old table omitted ARTEMIS and had stale reporting lines. Updated constraints, records and open items. |
 | 1.15.0 | 2026-10-20 | Added EUNOMIA (AppSec / DevSecOps Engineer, reports to the Blue Team Lead ARTEMIS) to the roles table and records. |
 | 1.14.0 | 2026-10-20 | Added JUPITER (CISO / Head of Security, reports to the CEO) to the roles table and records. |
@@ -111,5 +114,5 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | 1.4.0 | 2026-10-20 | Added IRIS (Content & Social Manager) to the roles table and records. |
 | 1.3.0 | 2026-10-20 | Added HESTIA (Head of Support/Customer Success) to the roles table and records. |
 | 1.2.0 | 2026-10-20 | Recorded the CEO's answers: the Sponsor/Owner is the CEO; product and priorities are not defined yet; the roster is being created; only the CTO and CEO write to the vault (D-008); no fallback repository yet. |
-| 1.1.0 | 2026-10-20 | Merged PERICLES's proposal: added PERICLES as Product Manager, the vault-access section, open questions, and decisions D-005 to D-007. Removed "Nexora Go" per the Sponsor's correction. Converted links to standard Markdown. |
+| 1.1.0 | 2026-10-20 | Merged PERICLES's proposal: added PERICLES as Product Manager, the vault-access section, open questions, and decisions D-005 to D-007. Removed an erroneous product name per the Sponsor's correction. Converted links to standard Markdown. |
 | 1.0.0 | 2026-10-20 | Initial publication by the CTO. Merged ATHENA's skeleton with SOLON's proposal. |

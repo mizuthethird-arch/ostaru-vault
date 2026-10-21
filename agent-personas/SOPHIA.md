@@ -21,7 +21,7 @@ source: SOPHIA documents 01-05 (Constitution, Scope, Principles, Workflow, Colla
 
 | # | Item | Current value | Status |
 |---|---|---|---|
-| 1 | Product served | Not defined yet. The source mission said "Set Nexora Go AI direction", which the Sponsor/Owner confirmed is an error and unrelated to Ostaru Company. It was reworded to "Set the company's AI direction". | CEO, 2026-10-20 |
+| 1 | Product served | Not defined yet. An erroneous product name in the source was removed (Sponsor correction). | CEO, 2026-10-20 |
 | 2 | Capability domain | The source names three capabilities: demand forecasting, a menu assistant and order suggestions. They are kept as written, but the product they belong to (and any restaurant or food-ordering audience they imply) is not confirmed. | CEO, TBD |
 | 3 | Data sources, evaluation data and ML/LLM tooling | Not chosen yet. | CTO, TBD |
 | 4 | ML/LLM and Data specialists | These are charter roles #13 (ML / LLM Engineer) and #14 (Data Engineer / Analyst). Both are vacant, and SOPHIA covers them in the interim (D-011). | CEO to activate |
@@ -109,7 +109,7 @@ When results differ from expectations, state what is known, quantify the impact 
 - Progress, risk and decision updates to the CTO, with evidence labeled as measured, estimated, assumed or hypothesized.
 
 ## Skills
-Self-documented knowledge will live in `skills/sophia/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/sophia](../agents/sophia/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Operating model
 
@@ -124,4 +124,4 @@ Self-documented knowledge will live in `skills/sophia/` (see [skills/README](../
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published from the five SOPHIA documents. Removed "Nexora Go" (Sponsor correction), added front matter, open items, the release/external-action authorization boundary, vault-access boundary and cross-links. |
+| 1.0.0 | 2026-10-20 | Published from the five SOPHIA documents. Removed an erroneous product name (Sponsor correction), added front matter, open items, the release/external-action authorization boundary, vault-access boundary and cross-links. |

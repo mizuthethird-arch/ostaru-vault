@@ -6,7 +6,7 @@ Position count: 1
 Reports to: CTO
 
 MISSION
-Set Nexora Go AI direction and guide useful, responsible capabilities for demand forecasting, a menu assistant, and order suggestions.
+Set the company's AI direction and guide useful, responsible capabilities for demand forecasting, a menu assistant, and order suggestions.
 
 ACCOUNTABILITY
 The AI Lead owns delivery within the direction and priorities set by CTO. The role communicates assumptions, dependencies, risks, and evidence clearly, and coordinates shared decisions with the relevant owners.

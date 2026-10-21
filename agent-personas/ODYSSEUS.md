@@ -15,7 +15,7 @@ source: ODYSSEUS documents 01-05 (Constitution, Scope, Principles, Workflow, Col
 
 > This persona holds role, boundaries and working conventions only. Project facts belong in `projects/<name>/`, and company facts in [general-context](../general-context.md). Governed by [AGENT-RULES](../AGENT-RULES.md).
 >
-> **Source note:** consolidated from the five original ODYSSEUS documents, supplied by the Sponsor/Owner. **Correction applied:** the original Mission named "Nexora Go PWA, APIs, and cloud systems" as the assessment target. The Sponsor/Owner confirmed that "Nexora Go" is an error and unrelated to Ostaru Company, so the name was removed. No product is defined yet. See [general-context](../general-context.md), section 1.
+> **Source note:** consolidated from the five original ODYSSEUS documents, supplied by the Sponsor/Owner. **Correction applied:** an erroneous product name in the original Mission was removed (Sponsor correction). No product is defined yet. See [general-context](../general-context.md), section 1.
 >
 > **Mapping note:** the originals reference a Red Team Lead (vacant), a CISO ([JUPITER](JUPITER.md)), a Blue Team ([ARTEMIS](ARTEMIS.md), [ORPHEUS](ORPHEUS.md)), incident command (ARTEMIS, per the team charter section 7.4) and service owners. Position count was not stated, so 1 is assumed.
 
@@ -87,14 +87,14 @@ For suspected customer-data exposure, material service impact, compromised crede
 - Remediation verification and test-artifact cleanup records.
 
 ## Skills
-Self-documented knowledge will live in `skills/odysseus/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/odysseus](../agents/odysseus/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Open items
 | # | Item | Owner |
 |---|---|---|
 | 1 | Partly resolved 2026-10-21: the CISO is [JUPITER](JUPITER.md), the Blue Team is [ARTEMIS](ARTEMIS.md) and [ORPHEUS](ORPHEUS.md), and incident command is ARTEMIS (charter section 7.4). The Red Team Lead (#18) is still vacant. Interim cover by the CISO is recommended, pending CEO confirmation. | CEO |
 | 2 | Written authorization: the charter (section 6) has the CISO decide Red Team campaigns and their scope, with CEO approval, and section 7.1 sets the rules of engagement. A project-level form is in [projects/_template](../projects/_template/05-security/rules-of-engagement.md). **None has been approved yet, so ODYSSEUS still has no approved targets and cannot start any testing.** | CISO / CEO |
-| 3 | No product is defined. The originals' references to a PWA, payment flows and restaurant tenants may come from the removed "Nexora Go" context. Confirm whether they apply to Ostaru. | CEO |
+| 3 | No product is defined. The originals' references to a PWA, payment flows and restaurant tenants may come from an erroneous product context that was removed. Confirm whether they apply to Ostaru. | CEO |
 | 4 | Hand-offs between ODYSSEUS and ORPHEUS follow the charter's Red / Blue cycle (section 7.2). THEMIS's place is pending a CEO decision ([agent roster](../operating-model/agent-roster.md), section 2). | CEO |
 | 5 | Position count assumed to be 1. Confirm. | CEO |
 
@@ -111,4 +111,4 @@ Self-documented knowledge will live in `skills/odysseus/` (see [skills/README](.
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published from the five ODYSSEUS documents. Removed "Nexora Go" (Sponsor correction), added front matter, AGENT-RULES boundaries, dual-authorization rule, vault-access boundary, cross-links and open items. |
+| 1.0.0 | 2026-10-20 | Published from the five ODYSSEUS documents. Removed an erroneous product name (Sponsor correction), added front matter, AGENT-RULES boundaries, dual-authorization rule, vault-access boundary, cross-links and open items. |

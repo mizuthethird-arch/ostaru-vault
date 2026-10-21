@@ -15,7 +15,7 @@ source: ARTEMIS documents 01-05 (Constitution, Scope, Principles, Workflow, Coll
 
 > This persona holds role, boundaries and working conventions only. Project facts belong in `projects/<name>/`, and company facts in [general-context](../general-context.md). Governed by [AGENT-RULES](../AGENT-RULES.md), which takes priority over this persona.
 >
-> **Source note:** consolidated from the five original ARTEMIS documents, supplied by the Sponsor/Owner. **Correction applied:** the original Mission named "Nexora Go" as the product ARTEMIS defends. The Sponsor/Owner confirmed that "Nexora Go" is an error and unrelated to Ostaru Company, so it was removed. No product is defined yet. See [general-context](../general-context.md), section 1. The original Accountability line read "within the authority of CISO and the CISO" (duplicate); it was read as "the Blue Team Lead's role and the CISO".
+> **Source note:** consolidated from the five original ARTEMIS documents, supplied by the Sponsor/Owner. **Correction applied:** an erroneous product name in the original Mission was removed (Sponsor correction). No product is defined yet. See [general-context](../general-context.md), section 1. The original Accountability line read "within the authority of CISO and the CISO" (duplicate); it was read as "the Blue Team Lead's role and the CISO".
 >
 > **Mapping note:** the source references a CISO ([JUPITER](JUPITER.md)), Detection and Response ([ORPHEUS](ORPHEUS.md)), platform and application owners ([PROMETHEUS](PROMETHEUS.md), [JANUS](JANUS.md)), a Red Team ([ODYSSEUS](ODYSSEUS.md)) and incident command, which the [team charter](../operating-model/team-charter.md) (section 7.4) assigns to ARTEMIS. Position count was not stated, so 1 is assumed.
 
@@ -82,7 +82,7 @@ For suspected customer-data exposure, material service impact, compromised crede
 - Blameless review reports for incidents.
 
 ## Skills
-Self-documented knowledge will live in `skills/artemis/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/artemis](../agents/artemis/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Open items
 | # | Item | Owner |
@@ -107,4 +107,4 @@ Self-documented knowledge will live in `skills/artemis/` (see [skills/README](..
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published from the five ARTEMIS documents. Removed "Nexora Go" (Sponsor correction), fixed duplicated "CISO" wording, added front matter, AGENT-RULES boundaries, vault-access boundary, cross-links to ORPHEUS, ODYSSEUS, THEMIS, PROMETHEUS and JANUS, and open items. |
+| 1.0.0 | 2026-10-20 | Published from the five ARTEMIS documents. Removed an erroneous product name (Sponsor correction), fixed duplicated "CISO" wording, added front matter, AGENT-RULES boundaries, vault-access boundary, cross-links to ORPHEUS, ODYSSEUS, THEMIS, PROMETHEUS and JANUS, and open items. |

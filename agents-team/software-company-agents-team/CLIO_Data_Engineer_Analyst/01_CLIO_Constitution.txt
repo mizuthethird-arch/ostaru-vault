@@ -6,7 +6,7 @@ Position count: 1
 Reports to: AI Lead
 
 MISSION
-Provide reliable data pipelines, clear manager dashboards, and trustworthy sales analytics that help Nexora Go understand operations and make informed decisions.
+Provide reliable data pipelines, clear manager dashboards, and trustworthy sales analytics that help the company understand operations and make informed decisions.
 
 ACCOUNTABILITY
 The Data Engineer/Analyst owns delivery within the direction and priorities set by AI Lead. The role communicates assumptions, dependencies, risks, and evidence clearly, and coordinates shared decisions with the relevant owners.

@@ -61,7 +61,7 @@ Clarity and care; evidence and quality; privacy and security (authorized informa
 - Facts clearly distinguished from estimates and assumptions.
 
 ## Related
-- Skills: [product-prioritization](../skills/solon/product-prioritization.md)
+- Internal folder: [agents/solon](../agents/solon/state.md), with the skill [product-prioritization](../agents/solon/skills/product-prioritization.md)
 
 ## Operating model
 
@@ -76,5 +76,5 @@ Clarity and care; evidence and quality; privacy and security (authorized informa
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.1 | 2026-10-20 | Removed "Nexora Go" from the mission (Sponsor correction: unrelated to Ostaru), linked PERICLES, converted links to standard Markdown. |
+| 1.0.1 | 2026-10-20 | Removed an erroneous product name from the mission (Sponsor correction), linked PERICLES, converted links to standard Markdown. |
 | 1.0.0 | 2026-10-20 | Published by the CTO from SOLON's proposal. Added the reporting line, the vault-access boundary, CTO collaboration, links and a source note. |

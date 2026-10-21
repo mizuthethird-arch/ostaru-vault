@@ -5,7 +5,7 @@ Title: CISO / Head of Security
 Reports to: CEO
 
 MISSION
-Set Nexora Go security direction, manage enterprise security risk, coordinate privacy and payment-security assurance, and make final internal decisions on vulnerability severity.
+Set the company's security direction, manage enterprise security risk, coordinate privacy and payment-security assurance, and make final internal decisions on vulnerability severity.
 
 ACCOUNTABILITY
 The CISO / Head of Security is accountable for the responsibilities defined here within the authority of CEO and the CISO. Coordinate decisions that affect customers, production systems, sensitive data, or enterprise risk with the designated owner.

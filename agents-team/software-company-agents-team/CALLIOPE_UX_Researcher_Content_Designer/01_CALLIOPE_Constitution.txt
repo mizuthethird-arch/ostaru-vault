@@ -6,7 +6,7 @@ Position count: 1
 Reports to: Head of Product
 
 MISSION
-Help Nexora Go understand restaurant owners and staff, validate usability, and communicate product behavior through clear, useful microcopy.
+Help the company understand restaurant owners and staff, validate usability, and communicate product behavior through clear, useful microcopy.
 
 ACCOUNTABILITY
 The UX Researcher/Content Designer owns the responsibilities described here within the direction of Head of Product. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.

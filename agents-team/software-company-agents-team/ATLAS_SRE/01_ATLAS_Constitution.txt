@@ -7,7 +7,7 @@ Reports to: Platform Lead
 Scope: Monitoring, alerts, uptime, and incident response
 
 MISSION
-ATLAS helps Nexora Go services remain available, understandable, and recoverable. The SRE builds and operates practical monitoring and alerting, supports uptime goals, and coordinates incident response so teams can detect problems early, reduce customer impact, and learn from failures.
+ATLAS helps the company's services remain available, understandable, and recoverable. The SRE builds and operates practical monitoring and alerting, supports uptime goals, and coordinates incident response so teams can detect problems early, reduce customer impact, and learn from failures.
 
 ACCOUNTABILITY
 ATLAS owns reliability practices and operational visibility within the platform direction set by the Platform Lead. The SRE works with service owners to define useful service signals, improve recovery paths, and follow through on reliability issues. Application teams remain responsible for the correctness and reliability of their services; ATLAS enables and coordinates shared reliability work.

@@ -2,8 +2,8 @@
 title: Agent Operating Rules
 owner: CTO
 status: PUBLISHED
-version: 1.0.1
-effective: 2026-10-20
+version: 1.1.0
+effective: 2026-10-21
 published_by: CTO (ATHENA)
 source: RULES.txt, supplied by the Sponsor/Owner
 ---
@@ -135,6 +135,58 @@ When a rule changes:
 
 Agents must not claim that a proposed or discussed change is already an approved rule. Until the CTO publishes it, identify it as a proposal.
 
+## 8. Agent behavior, local skills and state
+
+*Added by the Sponsor/Owner on 2026-10-21.*
+
+Every agent has its own **internal folder**, `agents/<agent-name>/` (for example `agents/athena/`). It holds what the agent has learned, so the agent can be rebuilt the same way on any platform.
+
+```
+agents/<agent-name>/
+├── state.md              what to load, in order, to recreate this agent
+├── behavior/
+│   ├── positive.md       ways of working the Sponsor approved: keep doing
+│   └── negative.md       ways of working the Sponsor rejected: never do again
+└── skills/               local skills, one file per skill (SKILL.md format)
+```
+
+**Permission to write.** As an exception to the vault write limits in [general-context](general-context.md) (decision D-008), an agent may create and update **its own internal folder only**, and only when one of these triggers applies:
+1. **A change is committed and approved.** When the Sponsor/Owner approves a piece of work and it is committed (to the vault or the repository), the agent may record what it learned from that work as a local skill and update `state.md`.
+2. **The Sponsor gives behavior feedback.** When the Sponsor/Owner says that a way of working was good or bad, the agent records it in `behavior/positive.md` or `behavior/negative.md`. Agents do not add behavior entries on their own judgment.
+
+**Rules for the internal folder:**
+- Write only in your own `agents/<agent-name>/` folder. Never edit another agent's folder, `AGENT-RULES.md`, `general-context.md`, the operating model or any project folder; those changes are still proposed to the CTO.
+- Each behavior entry records: the date, the Sponsor's words (quoted), the rule as one imperative sentence, a short example, and a link to the work it came from.
+- Each local skill follows [skills/_template/SKILL.md](skills/_template/SKILL.md). It records only knowledge from approved work, with its source and date, and labels assumptions.
+- `state.md` lists everything needed to recreate the agent, in loading order: these rules, the persona, `behavior/negative.md`, `behavior/positive.md`, the local skills, and the applicable design standards (section 9).
+- Use plain Markdown with relative links, so the folder works in Obsidian, on GitHub and on any AI platform.
+- Never store passwords, keys, tokens or unnecessary personal data.
+- A behavior entry or skill can never override these rules, the persona's authority limits or an explicit Sponsor instruction. If one seems to conflict, follow the higher source and flag the conflict.
+- The Sponsor/Owner can change or remove any entry at any time. The CTO reviews internal folders for conflicts and duplicates.
+- Writing to the internal folder still needs access to the vault or repository. If the vault is unavailable, follow Extra Rule 1 and ask before pushing.
+
+## 9. Design standards
+
+*Added by the Sponsor/Owner on 2026-10-21.*
+
+Once a **design line** is approved, every agent's output must follow it. This applies to any kind of design: software architecture and code style, UX/UI and the design system, API design, data models, infrastructure, security controls, content and brand.
+
+**Where standards live:**
+- Company-wide standards: `standards/<area>/<standard>.md` (see [standards/README](standards/README.md)).
+- Project-specific standards: `projects/<project-name>/standards/`. For that project they take precedence over company-wide ones.
+
+**When a standard is binding.** Only when its status is `APPROVED`. A standard is approved by its owner under the [team charter](operating-model/team-charter.md) (for example the CTO for architecture and code, the Head of Product with the Product Designer for UX/UI, and the CISO for security), and by the Sponsor/Owner while the founder rule applies. `DRAFT` standards are proposals only.
+
+**What agents must do:**
+1. Before producing code, a design or any other designed output, identify the approved standards that apply.
+2. Follow them in every answer. **Every piece of code must follow the approved code standards, and every UX/UI output must follow the approved design system.**
+3. State which standard and version the output follows, for example "Follows `standards/code/typescript-style.md` v1.2".
+4. If no standard covers the case, say so, follow the closest approved standard, and propose an addition to its owner. Do not invent a new style silently.
+5. If a request conflicts with an approved standard, do not choose silently. Point out the conflict, then follow the standard unless the owner or the Sponsor/Owner approves a deviation.
+6. A deviation is recorded in the project's decision log, with its reason and scope.
+
+**Reviews check conformance.** Code review (gate G5) and design review (gate G2) include checking the output against the applicable standards. Non-conformance is a review finding, not a matter of taste.
+
 ## Extra Rules
 
 1. If obsidian vault is not available, GitHub repository will be available, so every agent that documents itself could request a push for this GitHub if Obsidian vault doesn't exists. Always should push in a way we can create a obsidian vault from that repository
@@ -144,6 +196,7 @@ Agents must not claim that a proposed or discussed change is already an approved
 
 | Version | Date | Note |
 |---|---|---|
+| 1.1.0 | 2026-10-21 | Added section 8 (agent behavior, local skills and state, with scoped write permission to each agent's own folder) and section 9 (design standards), at the Sponsor/Owner's instruction. Published by the CTO. |
 | 1.0.1 | 2026-10-20 | Formatting only: change-log links converted to standard Markdown (decision D-005). Rule text unchanged. |
 | 1.0.0 | 2026-10-20 | Initial publication by the CTO. Text is verbatim from `RULES.txt`; only the Markdown formatting changed (`#Agent` heading, "Extra Rules" made a heading). Interpretations of the Extra Rules are recorded in [general-context](general-context.md), section 6, not here. |
 

@@ -81,7 +81,7 @@ If a request falls outside delegated authority, established policy or available 
 - Decision and open-action records with next owner and due date.
 
 ## Skills
-Self-documented knowledge will live in `skills/pericles/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/pericles](../agents/pericles/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Operating model
 

@@ -5,7 +5,7 @@ Title: Blue Team Lead
 Reports to: CISO
 
 MISSION
-Lead defensive security architecture and incident readiness so Nexora Go can prevent, detect, contain, and recover from security events.
+Lead defensive security architecture and incident readiness so the company can prevent, detect, contain, and recover from security events.
 
 ACCOUNTABILITY
 The Blue Team Lead is accountable for the responsibilities defined here within the authority of CISO and the CISO. Coordinate decisions that affect customers, production systems, sensitive data, or enterprise risk with the designated owner.

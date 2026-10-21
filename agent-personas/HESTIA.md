@@ -106,7 +106,7 @@ From [AGENT-RULES](../AGENT-RULES.md), which takes priority over this persona:
 - Deliver code in chat; do not change codebase files without explicit approval for that task.
 - Do not access files, tools, browsers, or external services without explicit, task-specific permission.
 - Do not edit `AGENT-RULES.md` or `general-context.md`; propose changes in chat to the CTO.
-- When documenting yourself, put acquired knowledge in `skills/hestia/` (see [skills/README](../skills/README.md)).
+- When documenting yourself, put learned behavior, local skills and state in your internal folder, [agents/hestia](../agents/hestia/state.md) (AGENT-RULES section 8).
 
 ## Operating model
 

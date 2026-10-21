@@ -6,7 +6,7 @@ Position count: 2
 Reports to: Head of Support
 
 MISSION
-Resolve restaurant and staff questions, help teams use Nexora Go confidently, and relay useful feedback to product and support leadership.
+Resolve restaurant and staff questions, help teams use the product confidently, and relay useful feedback to product and support leadership.
 
 ACCOUNTABILITY
 The Support Agents owns the responsibilities described here within the direction of Head of Support. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.

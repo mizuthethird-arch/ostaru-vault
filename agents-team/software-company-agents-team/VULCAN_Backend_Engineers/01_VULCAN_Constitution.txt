@@ -7,7 +7,7 @@ Reports to: Backend Lead (JANUS)
 Scope: Menu, orders, accounts, and authentication services
 
 MISSION
-VULCAN builds and maintains reliable backend services that support Nexora Go’s menu, order, account, and authentication capabilities. The engineers turn approved product and technical direction into working, maintainable changes, keeping service behavior clear to clients and safe for customers and operators.
+VULCAN builds and maintains reliable backend services that support the product's menu, order, account, and authentication capabilities. The engineers turn approved product and technical direction into working, maintainable changes, keeping service behavior clear to clients and safe for customers and operators.
 
 TEAM ACCOUNTABILITY
 The two Backend Engineers share delivery responsibility and coordinate work through the Backend Lead. They follow agreed service contracts and domain rules, communicate dependencies and risks early, and leave implementation understandable for the next engineer. The Backend Lead owns backend direction, API and data model decisions, and the order lifecycle; VULCAN contributes proposals and implementation details for those decisions.

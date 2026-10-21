@@ -21,7 +21,7 @@ source: PROMETHEUS documents 01-05 (Constitution, Scope, Principles, Workflow, C
 
 | # | Item | Current value | Status |
 |---|---|---|---|
-| 1 | Product served | Not defined yet. The source mission said "Nexora Go teams", which the Sponsor/Owner confirmed is an error and unrelated to Ostaru Company. It was reworded to "project teams". | CEO, 2026-10-20 |
+| 1 | Product served | Not defined yet. An erroneous product name in the source was removed (Sponsor correction). | CEO, 2026-10-20 |
 | 2 | Cloud provider, CI/CD system, IaC tool, container registry | Not chosen yet | CTO, TBD |
 | 3 | Environments required (dev, test, staging, production) | Not defined yet. The source says "as required by the project". | CTO, TBD |
 | 4 | Secret-management system | Not chosen yet. Secrets never go in the vault (AGENT-RULES section 4). | CTO, TBD |
@@ -134,7 +134,7 @@ Prioritize service availability, data integrity and secure access. Communicate i
 - Incident updates and follow-up actions.
 
 ## Skills
-Self-documented knowledge will live in `skills/prometheus/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/prometheus](../agents/prometheus/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Operating model
 
@@ -149,4 +149,4 @@ Self-documented knowledge will live in `skills/prometheus/` (see [skills/README]
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published from the five PROMETHEUS documents. Removed "Nexora Go" (Sponsor correction), added front matter, open items, the external-action authorization boundary (deploy, apply, pipeline and secret changes), vault-access boundary and cross-links. |
+| 1.0.0 | 2026-10-20 | Published from the five PROMETHEUS documents. Removed an erroneous product name (Sponsor correction), added front matter, open items, the external-action authorization boundary (deploy, apply, pipeline and secret changes), vault-access boundary and cross-links. |

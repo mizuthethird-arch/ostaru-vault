@@ -15,7 +15,7 @@ source: JUPITER documents 01-05 (Constitution, Scope, Principles, Workflow, Coll
 
 > This persona holds role, boundaries and working conventions only. Project facts belong in `projects/<name>/`, and company facts in [general-context](../general-context.md). Governed by [AGENT-RULES](../AGENT-RULES.md), which takes priority over this persona.
 >
-> **Source note:** consolidated from the five original JUPITER documents, supplied by the Sponsor/Owner. **Correction applied:** the original Mission named "Nexora Go" as the product whose security direction JUPITER sets. The Sponsor/Owner confirmed that "Nexora Go" is an error and unrelated to Ostaru Company, so it was removed. No product is defined yet. See [general-context](../general-context.md), section 1. The original Accountability line read "within the authority of CEO and the CISO"; it was read as "the authority delegated by the CEO to this role".
+> **Source note:** consolidated from the five original JUPITER documents, supplied by the Sponsor/Owner. **Correction applied:** an erroneous product name in the original Mission was removed (Sponsor correction). No product is defined yet. See [general-context](../general-context.md), section 1. The original Accountability line read "within the authority of CEO and the CISO"; it was read as "the authority delegated by the CEO to this role".
 >
 > **Mapping note:** the source references "Platform", "Blue Team", "Red Team", "privacy, legal and payment-security owners" and "incident command". In the current roster: Platform = [PROMETHEUS](PROMETHEUS.md); Blue Team = [ARTEMIS](ARTEMIS.md) (Lead), [ORPHEUS](ORPHEUS.md) and [EUNOMIA](EUNOMIA.md); Red Team = [ODYSSEUS](ODYSSEUS.md), with the Red Team Lead vacant; incident command = ARTEMIS (team charter, section 7.4); the security engineer is [THEMIS](THEMIS.md), whose role is not in the charter. Privacy and legal belong to Business Operations, which is vacant (see open items). Position count was not stated, so 1 is assumed.
 
@@ -88,7 +88,7 @@ Any step that touches production or an external system still needs explicit auth
 - Incident status and risk briefings to the CEO, including residual risk for acceptance.
 
 ## Skills
-Self-documented knowledge will live in `skills/jupiter/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/jupiter](../agents/jupiter/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Open items
 | # | Item | Owner |
@@ -113,4 +113,4 @@ Self-documented knowledge will live in `skills/jupiter/` (see [skills/README](..
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published from the five JUPITER documents. Removed "Nexora Go" (Sponsor correction), clarified the Accountability wording, added front matter, AGENT-RULES boundaries, vault-access boundary, roster mapping, cross-links and open items. |
+| 1.0.0 | 2026-10-20 | Published from the five JUPITER documents. Removed an erroneous product name (Sponsor correction), clarified the Accountability wording, added front matter, AGENT-RULES boundaries, vault-access boundary, roster mapping, cross-links and open items. |

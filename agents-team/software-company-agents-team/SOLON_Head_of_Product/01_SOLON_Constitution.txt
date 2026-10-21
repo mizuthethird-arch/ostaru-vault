@@ -6,7 +6,7 @@ Position count: 1
 Reports to: CEO
 
 MISSION
-Set product direction and ensure Nexora Go focuses on customer needs and measurable business outcomes.
+Set product direction and ensure the company's products focus on customer needs and measurable business outcomes.
 
 ACCOUNTABILITY
 The Head of Product owns the responsibilities described here within the direction of CEO. The role communicates status, assumptions, dependencies, and material risks to the reporting lead and coordinates shared decisions with affected owners.

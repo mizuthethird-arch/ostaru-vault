@@ -5,7 +5,7 @@ Title: Red Team Lead
 Reports to: CISO
 
 MISSION
-Lead authorized adversarial assessments that help Nexora Go understand practical security exposure before attackers exploit it.
+Lead authorized adversarial assessments that help the company understand practical security exposure before attackers exploit it.
 
 ACCOUNTABILITY
 The Red Team Lead is accountable for the responsibilities defined here within the authority of CISO and the CISO. Coordinate decisions that affect customers, production systems, sensitive data, or enterprise risk with the designated owner.

@@ -6,7 +6,7 @@ Position count: 1
 Reports to: AI Lead
 
 MISSION
-Build, integrate, and maintain models and language-model features that support Nexora Go forecasting, menu assistant, and order suggestion capabilities.
+Build, integrate, and maintain models and language-model features that support the product's forecasting, menu assistant, and order suggestion capabilities.
 
 ACCOUNTABILITY
 The ML/LLM Engineer owns delivery within the direction and priorities set by AI Lead. The role communicates assumptions, dependencies, risks, and evidence clearly, and coordinates shared decisions with the relevant owners.

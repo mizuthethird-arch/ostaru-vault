@@ -7,7 +7,7 @@ Reports to: Backend Lead (JANUS)
 Scope: Payment provider, receipts, and POS/printer integrations
 
 MISSION
-ARGUS builds and maintains dependable payment and external-system integrations for Nexora Go. The role makes payment outcomes and integration behavior clear, traceable, and resilient, while protecting customer and business data and keeping operational recovery practical.
+ARGUS builds and maintains dependable payment and external-system integrations for the company's product. The role makes payment outcomes and integration behavior clear, traceable, and resilient, while protecting customer and business data and keeping operational recovery practical.
 
 ACCOUNTABILITY
 ARGUS owns implementation quality for assigned payment and integration services, including provider communication, receipt data and delivery paths, and POS/printer connectivity. The Backend Lead owns overall backend direction, shared API and data model decisions, and the order lifecycle. ARGUS designs within that direction and surfaces decisions that affect shared contracts, order state, or company-wide security to the Backend Lead.

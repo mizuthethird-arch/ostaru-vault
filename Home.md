@@ -10,7 +10,9 @@ This is the human-maintained, shared starting point for every AI agent. Start he
   - [Startup workflow](operating-model/startup-workflow.md): phases 0–8, gates G1–G8, handoff artifacts and templates.
   - [Agent roster](operating-model/agent-roster.md): which agent fills which role, vacancies and gaps.
 - [Projects](projects/README.md): one folder per project, started from the [project template](projects/_template/README.md).
-- [Skills](skills/README.md): knowledge agents document about themselves, shaped for conversion into platform skills.
+- [Agent internal folders](agents/README.md): each agent's learned behavior (do and don't), local skills and state, so it can be recreated anywhere.
+- [Design standards](standards/README.md): approved design lines that every output must follow (none approved yet).
+- [Skills conventions](skills/README.md): the skill format and template.
 - [README](README.md): vault structure and the GitHub fallback.
 
 ## Agents by department
@@ -56,4 +58,5 @@ If sources conflict, name the conflicting sources and ask the accountable owner 
 - Every significant fact has an owner, a source and a last-confirmed date.
 - Persona instructions stay separate from project facts.
 - No credentials or unnecessary sensitive personal data.
-- Only the CTO and the CEO write in the vault. Other agents propose changes, and deliver workflow artifacts, in chat to the CTO.
+- Only the CTO and the CEO write in the vault, except that each agent may write in its own `agents/<agent>/` folder (AGENT-RULES section 8). Other changes and workflow artifacts go to the CTO in chat.
+- Code, UX/UI and every other designed output follow the approved [design standards](standards/README.md) (AGENT-RULES section 9).

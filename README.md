@@ -17,6 +17,10 @@ Ostaru-company/
 │   ├── startup-workflow.md  phases 0–8, gates, handoffs, templates
 │   └── agent-roster.md      charter roles mapped to agents (CTO-maintained)
 ├── agent-personas/          one file per agent (17 agents)
+├── agents/                  each agent's internal folder (writable by that agent)
+│   └── <agent>/             state.md, behavior/positive.md, behavior/negative.md, skills/
+├── standards/               approved design lines all outputs follow
+│   └── <area>/              code, architecture, ux-ui, api, data, ...
 ├── projects/
 │   ├── README.md            project index
 │   ├── _template/           copy this folder to start a project
@@ -26,9 +30,8 @@ Ostaru-company/
 │   │   └── status.md
 │   └── <project-name>/
 └── skills/
-    ├── README.md            conventions and index
-    ├── _template/SKILL.md
-    └── <agent-name>/        one file per skill
+    ├── README.md            skill conventions and list
+    └── _template/SKILL.md
 ```
 
 ## GitHub fallback (Extra Rule 1)
@@ -40,4 +43,4 @@ This is inactive while the vault exists (decision D-003 in [general-context](gen
 - Pushing is an external action, and it needs explicit authorization for that specific push.
 
 ## Documenting an agent (Extra Rule 2)
-When an agent documents itself, it creates or extends `skills/<agent-name>/`, with one file per skill based on [skills/_template/SKILL.md](skills/_template/SKILL.md). Proposed changes to `AGENT-RULES.md` or `general-context.md` go to the CTO in chat. Agents do not edit them directly.
+When an agent documents itself, it writes in its internal folder `agents/<agent-name>/`: local skills based on [skills/_template/SKILL.md](skills/_template/SKILL.md), behavior entries and `state.md` (AGENT-RULES section 8). Proposed changes to `AGENT-RULES.md` or `general-context.md` go to the CTO in chat. Agents do not edit them directly.

@@ -86,7 +86,7 @@ For suspected customer-data exposure, material service impact, compromised crede
 - Post-incident follow-up and remediation verification.
 
 ## Skills
-Self-documented knowledge will live in `skills/orpheus/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/orpheus](../agents/orpheus/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Open items
 | # | Item | Owner |

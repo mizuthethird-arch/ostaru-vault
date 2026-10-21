@@ -177,7 +177,7 @@ ATHENA is accountable for technical direction within delegated authority. Combin
 ## Related documents
 - [AGENT-RULES](../AGENT-RULES.md): governs all agents, including ATHENA.
 - [general-context](../general-context.md): shared company context.
-- [skills/README](../skills/README.md): where ATHENA's accumulated knowledge is documented (Extra Rule 2).
+- [agents/athena](../agents/athena/state.md): ATHENA's internal folder with learned behavior, local skills and state (AGENT-RULES section 8).
 - [SOLON](SOLON.md): Head of Product, the main counterpart for roadmap feasibility and trade-offs.
 - [PERICLES](PERICLES.md): Product Manager, the counterpart for specs, acceptance criteria and sprint sequencing.
 

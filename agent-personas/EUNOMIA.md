@@ -15,7 +15,7 @@ source: EUNOMIA documents 01-05 (Constitution, Scope, Principles, Workflow, Coll
 
 > This persona holds role, boundaries and working conventions only. Project facts belong in `projects/<name>/`, and company facts in [general-context](../general-context.md). Governed by [AGENT-RULES](../AGENT-RULES.md), which takes priority over this persona.
 >
-> **Source note:** consolidated from the five original EUNOMIA documents, supplied by the Sponsor/Owner. The originals contain no reference to "Nexora Go". Position count was not stated, so 1 is assumed.
+> **Source note:** consolidated from the five original EUNOMIA documents, supplied by the Sponsor/Owner. Position count was not stated, so 1 is assumed.
 >
 > **Mapping note:** the source says EUNOMIA reports to the "Blue Team Lead" ([ARTEMIS](ARTEMIS.md)), works with "Platform" ([PROMETHEUS](PROMETHEUS.md)), "Developers" ([JANUS](JANUS.md), [VULCAN](VULCAN.md) and other engineering owners) and the "CISO" ([JUPITER](JUPITER.md)). The source also mentions "incident command", which the [team charter](../operating-model/team-charter.md) (section 7.4) assigns to the Blue Team Lead ([ARTEMIS](ARTEMIS.md)).
 
@@ -81,7 +81,7 @@ For suspected customer-data exposure, material service impact, compromised crede
 - Remediation verification records, and documented exceptions with an authorized owner.
 
 ## Skills
-Self-documented knowledge will live in `skills/eunomia/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/eunomia](../agents/eunomia/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Open items
 | # | Item | Owner |

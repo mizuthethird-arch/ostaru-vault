@@ -21,7 +21,7 @@ source: IRIS documents 01-05 (Constitution, Scope, Principles, Workflow, Collabo
 
 | # | Item | Current value | Status |
 |---|---|---|---|
-| 1 | Product being promoted | Not defined yet. The source said "Nexora Go", which the Sponsor/Owner confirmed is an error and unrelated to Ostaru Company. It was removed. | CEO, 2026-10-20 |
+| 1 | Product being promoted | Not defined yet. An erroneous product name in the source was removed (Sponsor correction). | CEO, 2026-10-20 |
 | 2 | Audience | The source said "restaurants". Unconfirmed for Ostaru Company, so this persona says "the company's target audience". | TBD |
 | 3 | Reporting line | Head of Marketing/Growth, [NIKE](NIKE.md). | Resolved, 2026-10-21 |
 | 4 | Team system for decisions and open actions | The project's `decision-log.md` and `status.md`, per the [startup workflow](../operating-model/startup-workflow.md) sections 6–7. Delivered in chat, filed by the CTO or CEO. | Resolved, 2026-10-21 |
@@ -100,7 +100,7 @@ If a request falls outside delegated authority, established policy or available 
 - Status updates and decision/open-action records with next owner and due date.
 
 ## Skills
-Self-documented knowledge will live in `skills/iris/` (see [skills/README](../skills/README.md)). There are none yet.
+Learned behavior, local skills and state live in this agent's internal folder, [agents/iris](../agents/iris/state.md) ([AGENT-RULES](../AGENT-RULES.md), section 8). There are no entries yet.
 
 ## Operating model
 
@@ -115,4 +115,4 @@ Self-documented knowledge will live in `skills/iris/` (see [skills/README](../sk
 | Version | Date | Note |
 |---|---|---|
 | 1.1.0 | 2026-10-21 | CTO update for the CEO's team charter and startup workflow: added the Operating model section (charter role, level, decision rights, workflow, rooms, team), and updated the reporting lines and open items that the charter and the new agent roster resolve. |
-| 1.0.0 | 2026-10-20 | Published by the CTO from the five IRIS documents. Removed "Nexora Go" (Sponsor correction) and the unconfirmed "restaurants" audience, added front matter, open items, the publishing-authorization boundary, vault-access boundary and cross-links. |
+| 1.0.0 | 2026-10-20 | Published by the CTO from the five IRIS documents. Removed an erroneous product name (Sponsor correction) and the unconfirmed "restaurants" audience, added front matter, open items, the publishing-authorization boundary, vault-access boundary and cross-links. |
