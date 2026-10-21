@@ -2,7 +2,7 @@
 title: Agent Operating Rules
 owner: CTO
 status: PUBLISHED
-version: 1.1.0
+version: 1.2.0
 effective: 2026-10-21
 published_by: CTO (ATHENA)
 source: RULES.txt, supplied by the Sponsor/Owner
@@ -61,7 +61,11 @@ Do not send messages, publish content, make purchases, change external systems, 
 
 The Obsidian vault is shared, human-maintained knowledge base. Its existence alone does not authorize access. Ask the user for permission before opening or searching it, and specify the intended vault and documents.
 
-When authorized to consult the vault, read only the relevant material. Use these documents as the shared starting point:
+**Standing authorization (Sponsor/Owner, 2026-10-21).** Every agent may **read and search** the vault at any time without asking for task-specific permission. This covers the vault itself, its mirror in the Ostaru Company Claude Project knowledge, and its GitHub repository. It is read-only: writing still follows decision D-008 in `general-context.md` and section 8 of these rules. It does not extend to codebases or any other file, tool or service, which still need permission under section 3.
+
+**How to consult it.** Start from `Home.md` and your own `agents/<agent-name>/state.md`, then load the files listed there in order. If the vault and its mirror disagree, the vault (or GitHub, when the vault is unavailable) is the source of truth; flag the difference.
+
+When consulting the vault, read only the relevant material. Use these documents as the shared starting point:
 
 - `AGENT-RULES.md` — approved operating rules.
 - `general-context.md` — current, broadly relevant company and business context.
@@ -196,6 +200,7 @@ Once a **design line** is approved, every agent's output must follow it. This ap
 
 | Version | Date | Note |
 |---|---|---|
+| 1.2.0 | 2026-10-21 | Section 4: standing read authorization for all agents (vault, Project knowledge mirror, GitHub), and how to consult the vault. Sponsor/Owner instruction; published by the CTO. |
 | 1.1.0 | 2026-10-21 | Added section 8 (agent behavior, local skills and state, with scoped write permission to each agent's own folder) and section 9 (design standards), at the Sponsor/Owner's instruction. Published by the CTO. |
 | 1.0.1 | 2026-10-20 | Formatting only: change-log links converted to standard Markdown (decision D-005). Rule text unchanged. |
 | 1.0.0 | 2026-10-20 | Initial publication by the CTO. Text is verbatim from `RULES.txt`; only the Markdown formatting changed (`#Agent` heading, "Extra Rules" made a heading). Interpretations of the Extra Rules are recorded in [general-context](general-context.md), section 6, not here. |

@@ -2,7 +2,7 @@
 title: General Context
 owner: CTO (publishes changes; see AGENT-RULES section 4)
 status: PUBLISHED
-version: 1.17.0
+version: 1.18.0
 effective: 2026-10-21
 contributors: ATHENA (CTO), SOLON (Head of Product), PERICLES (Product Manager), and the CEO
 ---
@@ -39,13 +39,13 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | Biggest gaps before an MVP | Product Designer (#25), Frontend Lead (#3) and frontend engineers (#4–#5) | [agent roster](operating-model/agent-roster.md), section 5 | 2026-10-21 |
 
 ## 4. Vault access and permissions
-- All agents may **read** the `Ostaru-company` vault. (Sponsor/Owner, Project instructions, 2026-10-20)
+- All agents may **read and search** the vault at any time, with no per-task permission needed (D-015). Mirrors: the Ostaru Company Claude Project knowledge (`Ostaru-company/...` documents) and GitHub. (Sponsor/Owner, 2026-10-21)
 - **Only the CTO and the CEO may write** in the vault. (Sponsor/Owner, chat, 2026-10-20)
 - All other agents are read-only, and propose changes in chat to the CTO.
 - Anything outside the vault (codebase, repositories, tools, external services) still needs separate task-specific permission ([AGENT-RULES](AGENT-RULES.md), section 3).
 
 ## 5. Shared constraints
-- **Operating rules:** [AGENT-RULES](AGENT-RULES.md) v1.1.0. Code is delivered in chat, there is no file or tool access without task-specific permission, and vault updates are proposed to the CTO.
+- **Operating rules:** [AGENT-RULES](AGENT-RULES.md) v1.2.0. Code is delivered in chat, there is no file or tool access without task-specific permission, and vault updates are proposed to the CTO.
 - **Operating model:** the CEO's [team charter](operating-model/team-charter.md) and [startup workflow](operating-model/startup-workflow.md), both v1.0. They set roles, decision rights, phases 0–8, gates G1–G8 and handoff artifacts. They grant decision rights, **not access**; how they fit with the rules is in [operating-model/README](operating-model/README.md).
 - **Founder rule:** while the CEO is the only human, every gate also needs CEO approval, and no agent approves its own work (charter sections 1 and 10).
 - **Implementation-first:** work starts with the information available. Specialist review is code-review feedback, not a prerequisite.
@@ -70,6 +70,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 | D-012 | Every agent has an internal folder `agents/<agent>/` (behavior, local skills, state) that it may write itself, after committed and approved changes or on Sponsor behavior feedback. Existing skills moved there. | CEO | 2026-10-21 | Executive decision; AGENT-RULES section 8. |
 | D-013 | Approved design standards (code, UX/UI and any other design line) are binding on every agent output. They live in `standards/` or a project's `standards/` folder. | CEO | 2026-10-21 | Executive decision; AGENT-RULES section 9. No standard is approved yet. |
 | D-014 | The erroneous product name that appeared in agent source documents was removed from every vault file, including the source documents. | CEO | 2026-10-21 | Executive decision. |
+| D-015 | All agents may read and search the vault at any time, without per-task permission: the vault, its mirror in the Ostaru Company Claude Project knowledge, and GitHub. Read-only; writing rules unchanged. | CEO | 2026-10-21 | Executive decision; AGENT-RULES v1.2.0, section 4. The vault is the source of truth; the Project mirror is refreshed by the CTO. |
 
 **Current priorities:** not defined yet (CEO, 2026-10-20).
 
@@ -98,6 +99,7 @@ The organization follows the CEO's [team charter](operating-model/team-charter.m
 
 | Version | Date | Note |
 |---|---|---|
+| 1.18.0 | 2026-10-21 | D-015: standing read access for all agents; vault mirrored into the Claude Project knowledge. |
 | 1.17.0 | 2026-10-21 | Recorded D-012 (agent internal folders), D-013 (design standards) and D-014 (erroneous product name removed everywhere). Rules now v1.1.0. |
 | 1.16.0 | 2026-10-21 | Added the operating model (D-009), the rebuilt project template (D-010) and interim cover for engineering vacancies (D-011). Replaced the roles table with a summary linking to the agent roster; the old table omitted ARTEMIS and had stale reporting lines. Updated constraints, records and open items. |
 | 1.15.0 | 2026-10-20 | Added EUNOMIA (AppSec / DevSecOps Engineer, reports to the Blue Team Lead ARTEMIS) to the roles table and records. |
